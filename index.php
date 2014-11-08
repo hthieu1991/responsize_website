@@ -27,53 +27,56 @@
         </ul>
         <h3 class="text-muted">Trong Hieu's Blog</h3>
       </div>
+	<div class="row">
+		<div class="col-sm-9">
+			<div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+	    	<!-- Carousel indicators -->
+	        <ol class="carousel-indicators">
+	            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	            <li data-target="#myCarousel" data-slide-to="1"></li>
+	            <li data-target="#myCarousel" data-slide-to="2"></li>
+	        </ol>   
+	       <!-- Carousel items -->
+	        <div class="carousel-inner">
+	            <div class="active item">
+	                <h2>Slide 1</h2>
+	                <div class="carousel-caption">
+	                  <h3>First slide label</h3>
+	                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	                </div>
+	            </div>
+	            <div class="item">
+	                <h2>Slide 2</h2>
+	                <div class="carousel-caption">
+	                  <h3>Second slide label</h3>
+	                  <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+	                </div>
+	            </div>
+	            <div class="item">
+	                <h2>Slide 3</h2>
+	                <div class="carousel-caption">
+	                  <h3>Third slide label</h3>
+	                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+	                </div>
+	            </div>
+	        </div>
+	        <!-- Carousel nav -->
+	        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+	            <span class="glyphicon glyphicon-chevron-left"></span>
+	        </a>
+	        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+	            <span class="glyphicon glyphicon-chevron-right"></span>
+	        </a>
+	    </div>	
+	  </div>
+	  <div class="col-sm-3">
+	  	<img src="bootstrap/img/HIEU1.png" alt="tronghieu" class="img-rounded">
+	  </div>
 
-    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
-    	<!-- Carousel indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>   
-       <!-- Carousel items -->
-        <div class="carousel-inner">
-            <div class="active item">
-                <h2>Slide 1</h2>
-                <div class="carousel-caption">
-                  <h3>First slide label</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
-            <div class="item">
-                <h2>Slide 2</h2>
-                <div class="carousel-caption">
-                  <h3>Second slide label</h3>
-                  <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
-                </div>
-            </div>
-            <div class="item">
-                <h2>Slide 3</h2>
-                <div class="carousel-caption">
-                  <h3>Third slide label</h3>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Carousel nav -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div>
-    <div class="blog-header">
-        <h1 class="blog-title">The Bootstrap Blog</h1>
-        <p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>
     </div>
     <div class="row">
 
-        <div class="col-sm-8 blog-main">
+        <div class="col-sm-9">
 
           <div class="blog-post">
             <h2 class="blog-post-title">Sample blog post</h2>
@@ -143,12 +146,15 @@
 
         </div><!-- /.blog-main -->
 
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+        <div class="col-sm-3 h-margin-top">
           <div class="jumbotron h-about">
             <h4>About</h4>
             <p style="font-size:14px;">Tên mình là <em>Hiếu</em> . Mình hiện đang là một <em>PHP Developer</em>. 
             Sở thích của mình là <em>phiêu lưu</em>, khám phá <em>những điều mới</em>...
             </p>
+          </div>
+          <div class="sidebar-module">
+          	Fabook Like and share
           </div>
           <div class="sidebar-module">
             <h4>Archives</h4>
@@ -219,6 +225,9 @@
 		padding-right: 10px !important;
 		padding-top: 10px !important;
 		padding-bottom: 10px !important;
+	}
+	.h-margin-top{
+		margin-top :20px;
 	}
 
   </style>
