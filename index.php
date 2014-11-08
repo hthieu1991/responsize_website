@@ -229,6 +229,9 @@
 	.h-margin-top{
 		margin-top :20px;
 	}
+	.has-border{
+		border : solid 3px;
+	}
 
   </style>
   <script type="text/javascript">
