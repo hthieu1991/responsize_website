@@ -22,6 +22,14 @@
     <![endif]-->
   </head>
   <body>	
+  <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&appId=242779775879708&version=v2.0";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
   	<!-- Nav Bar -->
   <div class="container">	
   	<div class="header">
@@ -160,124 +168,10 @@
           </nav>
 
         </div>
-
-        <div class="col-sm-3 h-margin-top">
-          <div class="jumbotron h-about">
-            <h4>About</h4>
-            <p style="font-size:14px;">Tên mình là <em>Hiếu</em> . Mình hiện đang là một <em>PHP Developer</em>. 
-            Sở thích của mình là <em>phiêu lưu</em>, khám phá <em>những điều mới</em>...
-            </p>
-          </div>
-          <div class="sidebar-module">
-          	<ul class="nav nav-pills nav-stacked" role="tablist">
-			  <li role="presentation" class="active"><a href="1-php-co-ban.php">PHP cơ bản</a></li>
-			  <li role="presentation"><a href="2-php-nang-cao.php">PHP nâng cao</a></li>
-			  <li role="presentation"><a href="3-laravel-framework.php">Laravel Framework</a></li>
-			  <li role="presentation"><a href="4-ajax.php">AJAX</a></li>
-			  <li role="presentation"><a href="5-plugin-js.php">Plugin js</a></li>
-			</ul>
-          </div>
-          <div class="sidebar-module">
-            <h4>Archives</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">March 2014</a></li>
-              <li><a href="#">February 2014</a></li>
-              <li><a href="#">January 2014</a></li>
-              <li><a href="#">December 2013</a></li>
-              <li><a href="#">November 2013</a></li>
-              <li><a href="#">October 2013</a></li>
-              <li><a href="#">September 2013</a></li>
-              <li><a href="#">August 2013</a></li>
-              <li><a href="#">July 2013</a></li>
-              <li><a href="#">June 2013</a></li>
-              <li><a href="#">May 2013</a></li>
-              <li><a href="#">April 2013</a></li>
-            </ol>
-          </div>
-          <div class="sidebar-module">
-            <h4>Elsewhere</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Facebook</a></li>
-            </ol>
-          </div>
-        </div><!-- /.blog-sidebar -->
+		<!-- Sidebar -->
+		<?php include 'inc/sidebar.php';?>
+        <!-- End sidebar -->
 
       </div>
    </div>
-   <div class="jumbotron h-about">
-   			<p style="padding-left:50px;font-size:13px;">Copyright 2014-2015 © kungfuphp.com | Powered By KungfuPhp Version 1.0</p>
-   			<div align="center">
-		    	<a title="Hoc PHP Mysql Jquery" href="http://www.kungfuphp.com"> PHP MYSQL Online</a> - 
-				<a title="Hoc PHP" href="http://www.qhonline.info"> Hoc PHP</a> - 
-				<a title="PHP Co ban" href="http://www.kungfuphp.com"> PHP co ban</a> - 
-				<a title="PHP Nang Cao" href="http://www.kungfuphp.com"> Lap Trinh PHP Nang Cao</a> - 
-				<a title="Laravel Framework" href="http://www.kungfuphp.com"> PHP Framework</a> - 
-				<a target="_blank" title="Fabook kungfuphp" href="http://facebook.com/laptrinhkungfu">Facebook KungfuPhp</a>
-			</div>
-   </div>  
-   
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
-  <style>
-//  	.h-nav{
-//  		height:80px;
-//  	}
-	.navbar-inverse {
-	    background-color: #F8F8F8;
-	    border-color: #E7E7E7;
-	    
-	}
-	.navbar-brand {
-    	color: green !important;
-    	font-weight: bold;
-	}
-	h2{
-	    margin: 0;     
-	    color: #666;
-	    padding-top: 90px;
-	    font-size: 52px;
-	    font-family: "trebuchet ms", sans-serif;    
-	}
-	.item{
-  		background: #333;    
-	    text-align: center;
-	    height: 300px !important;
-	}
-	.carousel{
-	    margin-top: 20px;
-	    height: 300px;
-	}
-	.h-about{
-		padding-left: 10px !important;
-		padding-right: 10px !important;
-		padding-top: 10px !important;
-		padding-bottom: 10px !important;
-	}
-	.h-margin-top{
-		margin-top :20px;
-	}
-	.has-border{
-		border : solid 3px;
-	}
-	.h-nav-margin{
-		margin-top:10px !important;
-	}
-	.h-search-padding{
-		padding-top:7px;
-	}
-
-  </style>
-  <script type="text/javascript">
-	  $(document).ready(function(){
-	
-	       $("#myCarousel").carousel();
-	
-	  });
-
-  </script>
-</html>
+   <?php include 'inc/footer.php';?>
