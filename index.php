@@ -170,11 +170,11 @@
           </div>
           <div class="sidebar-module">
           	<ul class="nav nav-pills nav-stacked" role="tablist">
-			  <li role="presentation" class="active"><a href="#">PHP cơ bản</a></li>
-			  <li role="presentation"><a href="#">PHP nâng cao</a></li>
-			  <li role="presentation"><a href="#">Laravel Framework</a></li>
-			  <li role="presentation"><a href="#">AJAX</a></li>
-			  <li role="presentation"><a href="#">Plugin js</a></li>
+			  <li role="presentation" class="active"><a href="1-php-co-ban.php">PHP cơ bản</a></li>
+			  <li role="presentation"><a href="2-php-nang-cao.php">PHP nâng cao</a></li>
+			  <li role="presentation"><a href="3-laravel-framework.php">Laravel Framework</a></li>
+			  <li role="presentation"><a href="4-ajax.php">AJAX</a></li>
+			  <li role="presentation"><a href="5-plugin-js.php">Plugin js</a></li>
 			</ul>
           </div>
           <div class="sidebar-module">
