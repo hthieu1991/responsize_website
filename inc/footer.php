@@ -1,11 +1,11 @@
 <div class="jumbotron h-about">
    			<p style="padding-left:50px;font-size:13px;">Copyright 2014-2015 © kungfuphp.com | Powered By KungfuPhp Version 1.0</p>
    			<div align="center">
-		    	<a title="Hoc PHP Mysql Jquery" href="http://www.kungfuphp.com"> PHP MYSQL Online</a> - 
-				<a title="Hoc PHP" href="http://www.qhonline.info"> Hoc PHP</a> - 
+		    	<a title="Hoc PHP Mysql Jquery" href="http://www.kungfuphp.com"> PHP MySQL</a> - 
+				<a title="Hoc PHP" href="http://www.kungfuphp.com"> Hoc PHP</a> - 
 				<a title="PHP Co ban" href="http://www.kungfuphp.com"> PHP co ban</a> - 
-				<a title="PHP Nang Cao" href="http://www.kungfuphp.com"> Lap Trinh PHP Nang Cao</a> - 
-				<a title="Laravel Framework" href="http://www.kungfuphp.com"> PHP Framework</a> - 
+				<a title="PHP Nang Cao" href="http://www.kungfuphp.com">PHP Nang Cao</a> - 
+				<a title="Laravel Framework" href="http://www.kungfuphp.com"> PHP Frameworks</a> - 
 				<a target="_blank" title="Fabook kungfuphp" href="http://facebook.com/laptrinhkungfu">Facebook KungfuPhp</a>
 			</div>
    </div>  

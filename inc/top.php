@@ -34,11 +34,11 @@
   <div class="container">	
   	<div class="header">
         <ul role="tablist" class="nav nav-pills pull-right col-sm-3 h-nav-margin">
-          <li class="active" role="presentation"><a href="#">Home</a></li>
-          <li role="presentation"><a href="#">Blogs</a></li>
-          <li role="presentation"><a href="#">Contact</a></li>
+          <li class="active" role="presentation"><a href="index.php">Home</a></li>
+          <li role="presentation"><a href="1-php-co-ban.php">Blogs</a></li>
+          <li role="presentation"><a href="contact.php">Contact</a></li>
         </ul>
-        <h3 class="text-muted col-sm-3">Trong Hieu's Blog</h3>
+        <h3 class="text-muted col-sm-3"><a href="index.php" title="kungfuphp blog">Trong Hieu's Blog</a></h3>
         <form role="search" class="navbar-form col-sm-6 h-search-padding">
 	            <div class="form-group">
 	              <input type="text" placeholder="Search" class="form-control">
