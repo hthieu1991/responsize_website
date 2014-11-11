@@ -8,13 +8,13 @@ khám phá <em>những điều mới</em>...</p>
 
 <div class="sidebar-module">
 <ul id="category" class="nav nav-pills nav-stacked" role="tablist">
-	<li role="presentation" class="h-item active"><a href="1-php-co-ban.php"><b>PHP
+	<li role="presentation" class="h-item active"><a href="php-co-ban.php"><b>PHP
 	cơ bản</b></a></li>
-	<li role="presentation" class="h-item"><a href="2-php-nang-cao.php"><b>PHP nâng cao</b></a></li>
-	<li role="presentation" class="h-item"><a href="3-laravel-framework.php"><b>Laravel
+	<li role="presentation" class="h-item"><a href="php-nang-cao.php"><b>PHP nâng cao</b></a></li>
+	<li role="presentation" class="h-item"><a href="laravel-framework.php"><b>Laravel
 	Framework</b></a></li>
-	<li role="presentation" class="h-item"><a href="4-ajax.php"><b>AJAX</b></a></li>
-	<li role="presentation" class="h-item"><a href="5-plugin-js.php"><b>Plugin js</b></a></li>
+	<li role="presentation" class="h-item"><a href="ajax.php"><b>AJAX</b></a></li>
+	<li role="presentation" class="h-item"><a href="plugin-js.php"><b>Plugin js</b></a></li>
 </ul>
 </div>
 <div class="sidebar-module" style="margin-bottom:10px; margin-top:10px;">

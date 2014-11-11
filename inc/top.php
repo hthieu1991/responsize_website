@@ -35,7 +35,7 @@
   	<div class="header">
         <ul role="tablist" class="nav nav-pills pull-right col-sm-3 h-nav-margin">
           <li class="active" role="presentation"><a href="index.php">Home</a></li>
-          <li role="presentation"><a href="1-php-co-ban.php">Blogs</a></li>
+          <li role="presentation"><a href="php-co-ban.php">Blogs</a></li>
           <li role="presentation"><a href="contact.php">Contact</a></li>
         </ul>
         <h3 class="text-muted col-sm-3"><a href="index.php" title="kungfuphp blog">Trong Hieu's Blog</a></h3>

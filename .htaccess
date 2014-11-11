@@ -1,5 +1,5 @@
 # Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
-RewriteBase /
+#RewriteBase /
 RewriteEngine on
 RewriteRule ^chi-tiet-bai-viet-([0-9]+).html$ chi-tiet-bai-viet.php?id=$1
 RewriteRule ^contact.html$ contact.php
