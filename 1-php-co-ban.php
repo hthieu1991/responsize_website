@@ -17,7 +17,7 @@
 			        <tr class="active">
 			          <td>1</td>
 			          <td><b><a href="chi-tiet-bai-viet.php" title="chi tiet bai viet php">Bài 1 : Cái đặt môi trường lập trình PHP</a></b></td>
-			          <td><i>Việc đầu tiên để có thể chạy được web php là chúng ta cần cài môi trường apache</i><span style="font-size:11px;">  <a href="chitietbaiviet">Xem chi tiết</a></span></td>
+			          <td><i>Việc đầu tiên để có thể chạy được web php là chúng ta cần cài môi trường apache</i><span style="font-size:11px;">  <a href="chi-tiet-bai-viet.php">Xem chi tiết</a></span></td>
 			          <td>Administrator <br/>(09/11/2014)</td>
 			        </tr>
 			        <tr>
