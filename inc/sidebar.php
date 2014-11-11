@@ -5,19 +5,20 @@
 là một <em>PHP Developer</em>. Sở thích của mình là <em>phiêu lưu</em>,
 khám phá <em>những điều mới</em>...</p>
 </div>
-<div class="sidebar-module" style="margin-bottom:10px;">
-	<div class="fb-like-box" data-href="https://www.facebook.com/laptrinhkungfu" data-height="225" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
-</div>
+
 <div class="sidebar-module">
-<ul class="nav nav-pills nav-stacked" role="tablist">
-	<li role="presentation" class="active"><a href="1-php-co-ban.php">PHP
-	cơ bản</a></li>
-	<li role="presentation"><a href="2-php-nang-cao.php">PHP nâng cao</a></li>
-	<li role="presentation"><a href="3-laravel-framework.php">Laravel
-	Framework</a></li>
-	<li role="presentation"><a href="4-ajax.php">AJAX</a></li>
-	<li role="presentation"><a href="5-plugin-js.php">Plugin js</a></li>
+<ul id="category" class="nav nav-pills nav-stacked" role="tablist">
+	<li role="presentation" class="h-item active"><a href="1-php-co-ban.php"><b>PHP
+	cơ bản</b></a></li>
+	<li role="presentation" class="h-item"><a href="2-php-nang-cao.php"><b>PHP nâng cao</b></a></li>
+	<li role="presentation" class="h-item"><a href="3-laravel-framework.php"><b>Laravel
+	Framework</b></a></li>
+	<li role="presentation" class="h-item"><a href="4-ajax.php"><b>AJAX</b></a></li>
+	<li role="presentation" class="h-item"><a href="5-plugin-js.php"><b>Plugin js</b></a></li>
 </ul>
+</div>
+<div class="sidebar-module" style="margin-bottom:10px; margin-top:10px;">
+	<div class="fb-like-box" data-href="https://www.facebook.com/laptrinhkungfu" data-height="225" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
 </div>
 <div class="sidebar-module">
 <h4>Archives</h4>

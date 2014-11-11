@@ -6,7 +6,7 @@
 			<div class="bs-example">
 				<p>Nội dung bài viết được đặt ở đây</p>
 				<div align="center" class="row">   
-					<div class="fb-comments" data-href="https://www.facebook.com/laptrinhkungfu" data-numposts="10" data-colorscheme="light" width="100%"></div>
+					<div class="fb-comments" data-href="http://kungfuphp.com" data-numposts="10" data-colorscheme="light" width="100%"></div>
 				</div>
 			</div>
         </div>
