@@ -4,9 +4,9 @@ var path_array = path_name.split("/");
 
 $(".header a").each(function(index,value){
 	/** for host */
-	// if($(value).attr("href")==path_array[1]){
+	if($(value).attr("href")==path_array[1]){
 	/** for local */
-	if($(value).attr("href")==path_array[2]){
+	// if($(value).attr("href")==path_array[2]){
 		$(value).parent().addClass("active");
 		
 	}else{
@@ -18,9 +18,9 @@ $(".header a").each(function(index,value){
 
 $("#category a").each(function(index,value){
 	/** for host */
-	// if($(value).attr("href")==path_array[1]){
+	if($(value).attr("href")==path_array[1]){
 	/** for local */
-	if($(value).attr("href")==path_array[2]){
+	// if($(value).attr("href")==path_array[2]){
 		$(value).parent().addClass("active");
 		
 	}else{
