@@ -38,19 +38,16 @@
              Trong trường hợp này, ta sẽ thấy khi chạy trên trình duyệt, sẽ hiển thị ngày hiện tại trên trang trình duyệt của bạn, ngoài ra không thấy những gì lập trình bên dưới. Vào một thời điểm khác, bạn thực thi trang web một lần nữa, bạn sẽ thấy hiển thị một thời gian khác.
              Đây chính là một ví dụ nhỏ về tính động (Dynamic) của trang web .</p>
             <h3>Ngôn ngữ lập trình web</h3>
-            <p>Tất cả các lập trình web đều được thực hiện với <em> ngôn ngữ lập trình web</em>. Các ngôn ngữ này bào gồm các ngôn ngữ lập trình công nghệ tĩnh (static) như là HTML, XHTML, CSS, JavaScript và XML.</p>
+            <p>Tất cả các lập trình web đều được thực hiện với <em> ngôn ngữ lập trình web</em>. Các ngôn ngữ này bào gồm các ngôn ngữ lập trình công nghệ tĩnh (static) như là HTML, XHTML, CSS, JavaScript và XML.
+
+                Tuy nhiên, hầu hết lập trình trang web được thực hiện bằng ngôn ngữ lập trình phía server (server-side). 
+                Mã này chạy trên máy chủ và sau đó cung cấp thông tin tĩnh trở lại trình duyệt web.
+                 Các ngôn ngữ lập trình web phổ biến nhất là: PHP, ASP.NET, Ruby on Rails, Perl, ASP cổ điển, Python, và JSP.
+            </p>
             <ul>
-              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-              <li>Donec id elit non mi porta gravida at eget metus.</li>
-              <li>Nulla vitae elit libero, a pharetra augue.</li>
+              <li><a href="#">Tìm hiểu về PHP.</a></li>
             </ul>
-            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-            <ol>
-              <li>Vestibulum id ligula porta felis euismod semper.</li>
-              <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-              <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-            </ol>
-            <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+           
           </div><!-- /.blog-post -->
 
 <!--          <div class="blog-post">-->
