@@ -1,16 +1,17 @@
-<?php $title = 'Lập trình PHP - PHP Programing - PHP Development'; ?>
+<?php $title = 'Chi tiết bài viết lập trình PHP - PHP Programing - PHP Development'; ?>
 <?php include 'inc/top.php';?>
     <div class="row">
-
+		
         <div class="col-sm-9">
-
-          <div class="blog-post">
-            <h2 class="blog-post-title">Lập trình web là gì ?</h2>
+        <!-- 	<h3 align="center" class="jumbotron h-about">Có nên tập trung quá nhiều vào framework ?</h3> -->
+  			<div class="bs-example">
+  				<div class="blog-post">
+            <h2 class="blog-post-title" style="padding-top:10px;">Có nên tập trung quá nhiều vào framework ?</h2>
             <p class="blog-post-meta">11/11/2012 by <a href="#">Administrator</a></p>
 
-            <p>Bài viết này tóm tắt ngắn gọn, tổng quan về lập trình web là gì ?</p>
+            <p>Cũng tích cóp, lượm lặt được kha khá kinh nghiệm trong quá trình làm và phát triển web vơi PHP, nay minh muốn chia sẽ với các bạn chủ đề "Có nên tập trung quá nhiều vào framework ?"</p>
             <hr>
-            <p>Để tìm hiểu <a href="#">lập trình web là gì</a>, thì chúng ta nên hiểu rõ khái niệm "lập trình" là gì ?</p>
+            <p>Để cùng nhau bàn luận về chủ đề này thì trước tiên mình muốn nói rõ một tí về khái niệm <a href="#" title="PHP Framework">Frameword </a></p>
             <blockquote>
               <p>Lập trình đó là <strong>công đoạn nghệ thuật phức tạp yêu cầu máy tính cần phải làm những gì</strong></p>
             </blockquote>
@@ -22,19 +23,19 @@
             <h3>Vậy thì một trang web làm việc như thế nào ?</h3>
             <p>Cơ bản, nó có cấu trúc như sau.</p>
             <pre>
-            	<code>
-	            		&lt;html&gt;<br>
-					&lt;head&gt;<br>
-					&lt;title&gt;My Web Page&lt;/title&gt;<br>
-					&lt;/head&gt;<br>
-					&lt;body&gt;<br>
-						<strong>&lt;?php<br>
-						print date("Y/m/d");<br>
-						?&gt;</strong><br>
-					&lt;/body&gt;<br>
-				&lt;/html&gt;
-				</code>
-			</pre>
+              <code>
+                  &lt;html&gt;<br>
+          &lt;head&gt;<br>
+          &lt;title&gt;My Web Page&lt;/title&gt;<br>
+          &lt;/head&gt;<br>
+          &lt;body&gt;<br>
+            <strong>&lt;?php<br>
+            print date("Y/m/d");<br>
+            ?&gt;</strong><br>
+          &lt;/body&gt;<br>
+        &lt;/html&gt;
+        </code>
+      </pre>
             <p>Khi bạn truy cập trang web của bạn thông qua một trình duyệt, máy chủ web sẽ phân tích cú pháp, đọc qua các dòng trang HTML của bạn và khi nó đi qua một ngôn ngữ lập trình (ở đây ta thấy đoạn mã thuộc ngôn ngữ lập trình php), nó sẽ thực thi mã lệnh này.
              Trong trường hợp này, ta sẽ thấy khi chạy trên trình duyệt, sẽ hiển thị ngày hiện tại trên trang trình duyệt của bạn, ngoài ra không thấy những gì lập trình bên dưới. Vào một thời điểm khác, bạn thực thi trang web một lần nữa, bạn sẽ thấy hiển thị một thời gian khác.
              Đây chính là một ví dụ nhỏ về tính động (Dynamic) của trang web .</p>
@@ -50,19 +51,16 @@
             </ul>
            
           </div>
-
-          <nav>
-            <ul class="pager">
-              <li><a href="#">Previous</a></li>
-              <li><a href="#">Next</a></li>
-            </ul>
-          </nav>
-
+  				<div align="center" class="row">   
+  					<div class="fb-comments" data-href="http://kungfuphp.com/chi-tiet-blog.php?id_blog=1" data-numposts="10" data-colorscheme="light" width="100%"></div>
+  				</div>
+  			</div>
         </div>
-		<!-- Sidebar -->
+
+        <!-- sidebar -->
 		<?php include 'inc/sidebar.php';?>
-        <!-- End sidebar -->
+        <!-- end sidebar -->
 
       </div>
    </div>
-   <?php include 'inc/footer.php';?>
+  <?php include 'inc/footer.php';?>

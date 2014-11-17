@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lập trình PHP - PHP Programing - PHP Development</title>
+    <title><?php echo $title; ?></title>
     <meta content="Blog chia sẻ kinh nghiệm hướng dẫn lập trình PHP. Framework PHP" name="description">
 	<meta content="php, lap trinh php, php tutorials, php programming" name="keywords">
 	<link href="http://kungfuphp.com" rel="canonical">
@@ -35,7 +35,7 @@
   	<div class="header">
         <ul role="tablist" class="nav nav-pills pull-right col-sm-3 h-nav-margin">
           <li class="active" role="presentation"><a href="index.php">Home</a></li>
-          <li role="presentation"><a href="php-co-ban.php">Blogs</a></li>
+          <li role="presentation"><a href="blogs-lap-trinh.php">Blogs</a></li>
           <li role="presentation"><a href="contact.php">Contact</a></li>
         </ul>
         <h3 class="text-muted col-sm-3"><a href="index.php" title="kungfuphp blog">Trong Hieu's Blog</a></h3>

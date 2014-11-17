@@ -1,3 +1,4 @@
+<?php $title = 'Chi tiết bài viết lập trình PHP - PHP Programing - PHP Development'; ?>
 <?php include 'inc/top.php';?>
     <div class="row">
 		
@@ -6,7 +7,7 @@
 			<div class="bs-example">
 				<p>Nội dung bài viết được đặt ở đây</p>
 				<div align="center" class="row">   
-					<div class="fb-comments" data-href="http://kungfuphp.com" data-numposts="10" data-colorscheme="light" width="100%"></div>
+					<div class="fb-comments" data-href="http://kungfuphp.com/chi-tiet-bai-viet.php?id_thread=1" data-numposts="10" data-colorscheme="light" width="100%"></div>
 				</div>
 			</div>
         </div>

@@ -11,10 +11,9 @@ khám phá <em>những điều mới</em>...</p>
 	<li role="presentation" class="h-item active"><a href="php-co-ban.php"><b>PHP
 	cơ bản</b></a></li>
 	<li role="presentation" class="h-item"><a href="php-nang-cao.php"><b>PHP nâng cao</b></a></li>
-	<li role="presentation" class="h-item"><a href="laravel-framework.php"><b>Laravel
-	Framework</b></a></li>
-	<li role="presentation" class="h-item"><a href="ajax.php"><b>AJAX</b></a></li>
+	<li role="presentation" class="h-item"><a href="laravel-framework.php"><b>	Framework</b></a></li>
 	<li role="presentation" class="h-item"><a href="plugin-js.php"><b>Plugin js</b></a></li>
+	<li role="presentation" class="h-item"><a href="blogs-lap-trinh.php"><b>Blogs lập trình</b></a></li>
 </ul>
 </div>
 <div class="sidebar-module" style="margin-bottom:10px; margin-top:10px;">

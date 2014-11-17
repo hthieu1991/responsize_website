@@ -1,9 +1,9 @@
-<?php $title = 'Lập trình PHP cơ bản - PHP Programing - PHP Development'; ?>
+<?php $title = 'Các bài blog lập trình PHP - PHP Programing - PHP Development'; ?>
 <?php include 'inc/top.php';?>
     <div class="row">
 		
         <div class="col-sm-9">
-        	<h3 align="center" class="jumbotron h-about">Hướng dẫn lập trình PHP cơ bản</h3>
+        	<h3 align="center" class="jumbotron h-about">Tản mạn lập trình</h3>
 			<div class="bs-example">
 			    <table class="table">
 			      <thead>
@@ -17,8 +17,8 @@
 			      <tbody>
 			        <tr class="active">
 			          <td>1</td>
-			          <td><b><a href="chi-tiet-bai-viet.php" title="chi tiet bai viet php">Bài 1 : Cái đặt môi trường lập trình PHP</a></b></td>
-			          <td><i>Việc đầu tiên để có thể chạy được web php là chúng ta cần cài môi trường apache</i><span style="font-size:11px;">  <a href="chi-tiet-bai-viet.php?id=1">Xem chi tiết</a></span></td>
+			          <td><b><a href="chi-tiet-blog.php?id_blog=1" title="chi tiet bai viet php">Có nên tập trung quá nhiều vào framework ?</a></b></td>
+			          <td><i>Cũng tích cóp, lượm lặt được kha khá kinh nghiệm trong quá trình làm và phát triển web vơi PHP, nay minh muốn chia sẽ với các bạn chủ đề...</i><span style="font-size:11px;">  <a href="chi-tiet-blog.php?id_blog=1">Xem chi tiết</a></span></td>
 			          <td>Administrator <br/>(09/11/2014)</td>
 			        </tr>
 			        <tr>
