@@ -45,8 +45,9 @@
                 Mã này chạy trên máy chủ và sau đó cung cấp thông tin tĩnh trở lại trình duyệt web.
                  Các ngôn ngữ lập trình web phổ biến nhất là: PHP, ASP.NET, Ruby on Rails, Perl, ASP cổ điển, Python, và JSP.
             </p>
+            <em>Bài viết liên quan</em>
             <ul>
-              <li><a href="#">Tìm hiểu về PHP.</a></li>
+              <li><a href="http://kungfuphp.com/chi-tiet-blog.php?id_blog=1">Có nên tập trung quá nhiều vào Framework ?</a></li>
             </ul>
            
           </div>
