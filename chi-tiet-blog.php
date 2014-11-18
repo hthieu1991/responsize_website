@@ -1,4 +1,4 @@
-<?php $title = 'Chi tiết bài viết lập trình PHP - PHP Programing - PHP Development'; ?>
+<?php $title = 'Có nên tập trung quá nhiều vào framework ? - PHP Programing - PHP Development'; ?>
 <?php include 'inc/top.php';?>
     <div class="row">
 		
@@ -11,43 +11,65 @@
 
             <p>Cũng tích cóp, lượm lặt được kha khá kinh nghiệm trong quá trình làm và phát triển web vơi PHP, nay minh muốn chia sẽ với các bạn chủ đề "Có nên tập trung quá nhiều vào framework ?"</p>
             <hr>
-            <p>Để cùng nhau bàn luận về chủ đề này thì trước tiên mình muốn nói rõ một tí về khái niệm <a href="#" title="PHP Framework">Frameword </a></p>
-            <blockquote>
-              <p>Lập trình đó là <strong>công đoạn nghệ thuật phức tạp yêu cầu máy tính cần phải làm những gì</strong></p>
-            </blockquote>
-            <p>Bạn đừng hiểu lầm lập trình theo nghĩa <em>"ê, lấy cho tao ly nước uống coi, cái thằng máy tính ngu ngốc kia"</em>. Nó không phải vậy, mà lập trình được hướng dẫn thực thi bằng một chuỗi các mã lệnh, bố cục hợp lý để máy tính có thể hiểu được
-              . Về cơ bản, bạn cung cấp cho máy tính một văn bản bao gồm các bước nhỏ hướng dẫn, máy tính sẽ đi theo từng bước nhỏ đó đến cuối danh sách, lần lượt thực hiện các bước theo thứ tự. Lập trình cho phép chúng ta tạo ra những phần mềm mới. Và lập trình web thì cũng như thế, 
-              chỉ có điều là bạn viết các ứng dụng hoặc trang web được sử dụng bởi các trình duyệt web (firefox, chrome, IE, Opera,...)
+            <p>Mình sẽ đưa ra những quan điểm cá nhân về mặt tốt và mặt xấu của <a href="#" title="PHP Framework">Framework </a>
+              để các bạn có cái nhìn rõ hơn
             </p>
-           
-            <h3>Vậy thì một trang web làm việc như thế nào ?</h3>
-            <p>Cơ bản, nó có cấu trúc như sau.</p>
-            <pre>
-              <code>
-                  &lt;html&gt;<br>
-          &lt;head&gt;<br>
-          &lt;title&gt;My Web Page&lt;/title&gt;<br>
-          &lt;/head&gt;<br>
-          &lt;body&gt;<br>
-            <strong>&lt;?php<br>
-            print date("Y/m/d");<br>
-            ?&gt;</strong><br>
-          &lt;/body&gt;<br>
-        &lt;/html&gt;
-        </code>
-      </pre>
-            <p>Khi bạn truy cập trang web của bạn thông qua một trình duyệt, máy chủ web sẽ phân tích cú pháp, đọc qua các dòng trang HTML của bạn và khi nó đi qua một ngôn ngữ lập trình (ở đây ta thấy đoạn mã thuộc ngôn ngữ lập trình php), nó sẽ thực thi mã lệnh này.
-             Trong trường hợp này, ta sẽ thấy khi chạy trên trình duyệt, sẽ hiển thị ngày hiện tại trên trang trình duyệt của bạn, ngoài ra không thấy những gì lập trình bên dưới. Vào một thời điểm khác, bạn thực thi trang web một lần nữa, bạn sẽ thấy hiển thị một thời gian khác.
-             Đây chính là một ví dụ nhỏ về tính động (Dynamic) của trang web .</p>
-            <h3>Ngôn ngữ lập trình web</h3>
-            <p>Tất cả các lập trình web đều được thực hiện với <em> ngôn ngữ lập trình web</em>. Các ngôn ngữ này bào gồm các ngôn ngữ lập trình công nghệ tĩnh (static) như là HTML, XHTML, CSS, JavaScript và XML.
-
-                Tuy nhiên, hầu hết lập trình trang web được thực hiện bằng ngôn ngữ lập trình phía server (server-side). 
-                Mã này chạy trên máy chủ và sau đó cung cấp thông tin tĩnh trở lại trình duyệt web.
-                 Các ngôn ngữ lập trình web phổ biến nhất là: PHP, ASP.NET, Ruby on Rails, Perl, ASP cổ điển, Python, và JSP.
+            <h4>A) Tại sao nên ?</h4>
+            <h5 style="font-weight:bold">1) Cách tổ chức code và danh sách files</h5>
+            <p>Khi bạn tổ cài đặt một PHP Framework, nó đã có sẵn một cấu trúc bao gồm các folder và tập tin nhất định
+              Và từ đó bạn có thể follow theo cái cấu trúc đó như một tiêu chuẩn để tạp ra các ứng dụng website thích hợp
             </p>
+            <h5 style="font-weight:bold">2) Các tiện ích và thư viện hỗ trợ</h5>
+            <p> Các PHP Framework thông thường được một đội ngũ kĩ sư lập trình dày dạn kinh nghiệm phát triển, và họ đã xây dựng sẵn
+              cho chúng ta các thư viên hỗ trợ phong phú, điều này là một lợi điểm rất lớn khi mà chúng ta không muốn phải bắt đầu xây dựng
+              toàn bộ hệ thống website.<br />
+              Thông thường những thư viện bao gồm :<br />
+              -Form Validation <br />
+              -Input/Output filtering <br />
+              -Database Abstraction <br />
+              -Session and Cookie Handling <br />
+              -Email, Calendar, Pagination etc… <br /></p>
+              <img width="697" height="205" class="aligncenter size-full wp-image-466" title="appflowchart" alt="appflowchart" src="http://www.phpandstuff.com/wp-content/uploads/2009/11/appflowchart.gif">
+            <h5 style="font-weight:bold">3) Mô hình MVC</h5>
+            <p>Cấu trúc mô hình MVC bao gồm:<br />
+              - Model : Bao gồm các xử lý, truy vấn data, bộ mặt đại diện cho cấu trúc của dữ liệu <br />
+              - Controller : Điều hướng các yêu cầu, và xử lý các yêu cầu đó <br />
+              - View : Hiển thị các output ra phía người dùng có thể thấy được
+            </p> 
+            <p>Cấu trúc này rất rõ ràng và dễ cho việc bảo trì đối với các hệ thống lớn và phức tạp</p>
+            <h5 style="font-weight:bold">4) Bảo mật</h5>
+            <p>Các PHP Framework thông thường hỗ trợ khá nhiều biện pháp chống những cuộc tấn công nhất định
+            <br />Chẳng hạn như là
+            <br />-SQL Ejection<br />
+              -Form Helper , Url Helper<br />
+              -XSS Attack</p>
+            <h5 style="font-weight:bold">5) Code ít và phát triển nhanh hơn</h5>
+            <p>Điều này là tất yếu bởi Framework được xây dựng sẵn các thư viện hỗ trợ, giúp cho code ít hơn nhưng làm được nhiều việc hơn</p>
+            <h5 style="font-weight:bold">6) Đội ngũ hộ trợ lớn</h5>
+            <p>Hầu hết các Framework lớn hoặc phổ biến thường đứng sau đố là một hệ thống hỗ trợ dày dạn kinh nghiệm, đồng thời thông qua các diễn đàn
+              việc giải đáp các thắc mắc sẽ nhanh chóng hơn
+            </p>
+            <h4>C) Tại sao không nên?
+            <h5 style="font-weight:bold">1) Bạn sẽ học được nhiều hơn khi không sử dụng Framework</h5>
+            <p>Theo mình điều này là quá rõ ràng, bởi vì khi không dùng Framework, bạn phải tự mày mò, code từ A-Z, và từ đó bạn sẽ
+              hiểu sâu hơn về dòng chảy của code, dòng chảy của dữ liệu. Đồng thời khi tự code bạn học được cái nền, cái cơ bản, và từ có thể
+              từ đó biết đâu bạn sẽ tự sáng tạo được một framework mới hay hơn so với các framework hiện nay.<br />
+              Một bằng chứng đáng nói là khi mình quá phụ thuộc vào framwork, mình sẽ dần quên đi các kiến thức căn bản hay nói nôm na là "lục nghê",
+              và điều này mình đã từng trải qua và mình rất thấm thía nó </p>
+            <h5 style="font-weight:bold">2) Khả năng bảo mật</h5>
+            <p>Điều này có vẻ mâu thuẫn vì ở lợi điểm phía trên mình cũng nói là Framework bảo mật. Điều trên đúng và điều này cũng đúng,
+              một hệ thống khi bạn tự phát triển ra, những ý tưởng, những điều ẩn giấu thì chỉ mỗi mình bạn biết, và đem so với một framework đã được nhiều người
+              phát triển và biết đến thì vấn đề bảo mật này cũng rất đáng đề cao</p>
+            <h5 style="font-weight:bold">3) Mục đích phát triển</h5>
+            <p>Một ứng dụng do chính bạn tự thiết kế thì ắt hẳn bạn cũng đã chủ động xây dựng nó phù hợp với mục đích phát triển của ứng dụng,
+              loại bỏ đi các thư viện hỗ trợ dư thừa của các framework, đồng thời theo mình nghĩ thì ắt hẳn ứng dụng của bạn cũng sẽ nhanh hơn</p>
+            <h5 style="font-weight:bold">4) Các website quy mô vừa và nhỏ</h5>
+            <p>Thông thường với các website quy mô vừa và nhỏ, đôi khi tự phát triển lại nhanh hơn và không nhất thiết phải xử dụng một framework cồng kềnh... </p>
+            <quote>Trên đây là những suy nghĩ, quan điểm chia sẽ của mình và ưu và nhược điểm của framework, hi vọng các bạn sẽ 
+              biết cách khi nào nên và không nên sử dụng framework</quote>
+            <em>Bài viết liên quan</em>
             <ul>
-              <li><a href="#">Tìm hiểu về PHP.</a></li>
+              <li><a href="http://kungfuphp.com/index.php">Lập trình web là gì.</a></li>
             </ul>
            
           </div>
