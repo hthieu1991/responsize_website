@@ -7,7 +7,7 @@
   			<div class="bs-example">
   				<div class="blog-post">
             <h2 class="blog-post-title" style="padding-top:10px;">Có nên tập trung quá nhiều vào framework ?</h2>
-            <p class="blog-post-meta">11/11/2012 by <a href="#">Administrator</a></p>
+            <p class="blog-post-meta">18/11/2012 by <a href="#">Administrator</a></p>
 
             <p>Cũng tích cóp, lượm lặt được kha khá kinh nghiệm trong quá trình làm và phát triển web vơi PHP, nay minh muốn chia sẽ với các bạn chủ đề "Có nên tập trung quá nhiều vào framework ?"</p>
             <hr>
@@ -29,7 +29,7 @@
               -Database Abstraction <br />
               -Session and Cookie Handling <br />
               -Email, Calendar, Pagination etc… <br /></p>
-              <img width="697" height="205" class="aligncenter size-full wp-image-466" title="appflowchart" alt="appflowchart" src="http://www.phpandstuff.com/wp-content/uploads/2009/11/appflowchart.gif">
+              <img width="697" height="205" title="flowchart php" alt="flowchart php" src="bootstrap/img/appflowchart.gif">
             <h5 style="font-weight:bold">3) Mô hình MVC</h5>
             <p>Cấu trúc mô hình MVC bao gồm:<br />
               - Model : Bao gồm các xử lý, truy vấn data, bộ mặt đại diện cho cấu trúc của dữ liệu <br />
