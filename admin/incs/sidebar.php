@@ -1,8 +1,9 @@
 <div class="col-sm-3 col-md-2 sidebar" id="admin_sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-            <li><a href="quan-ly-danh-muc-bai-viet.php">Danh mục bài viết</a></li>
-            <li><a href="quan-ly-bai-viet.php">Bài viết</a></li>
+            <li><a href="quan-ly-danh-muc-bai-viet.php">Quản lý danh mục</a></li>
+            <li><a href="danh-sach-bai-viet.php">Quản lý bài viết</a></li>
+            <li><a href="bai-viet-moi.php">Bài viết</a></li>
             <!-- <li><a href="#">Export</a></li> -->
           </ul>
          <!--  <ul class="nav nav-sidebar">
