@@ -8,18 +8,28 @@ khám phá <em>những điều mới</em>...</p>
 
 <div class="sidebar-module">
 <ul id="category" class="nav nav-pills nav-stacked" role="tablist">
-	<li role="presentation" class="h-item active"><a href="php-co-ban.php"><b>PHP
+	<?php
+          include("lib/connection.php");
+          $sql = "SELECT * FROM category  WHERE cat_public=1";
+          $query = mysqli_query($conn,$sql);
+          while ($data = mysqli_fetch_array($query)) {
+          	$cat_link = $data['cat_link'];
+          	$cat_name = $data['cat_name'];
+          	echo "<li role='presentation' class='h-item'><a href='$cat_link'><b>$cat_name</b></a></li>";
+          }
+    ?>
+<!-- 	<li role="presentation" class="h-item active"><a href="php-co-ban.php"><b>PHP
 	cơ bản</b></a></li>
 	<li role="presentation" class="h-item"><a href="php-nang-cao.php"><b>PHP nâng cao</b></a></li>
 	<li role="presentation" class="h-item"><a href="laravel-framework.php"><b>	Framework</b></a></li>
 	<li role="presentation" class="h-item"><a href="plugin-js.php"><b>Plugin js</b></a></li>
-	<li role="presentation" class="h-item"><a href="blogs-lap-trinh.php"><b>Blogs lập trình</b></a></li>
+	<li role="presentation" class="h-item"><a href="blogs-lap-trinh.php"><b>Blogs lập trình</b></a></li> -->
 </ul>
 </div>
 <div class="sidebar-module" style="margin-bottom:10px; margin-top:10px;">
 	<div class="fb-like-box" data-href="https://www.facebook.com/laptrinhkungfu" data-height="225" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
 </div>
-<div class="sidebar-module">
+<!-- <div class="sidebar-module">
 <h4>Archives</h4>
 <ol class="list-unstyled">
 	<li><a href="#">March 2014</a></li>
@@ -35,13 +45,12 @@ khám phá <em>những điều mới</em>...</p>
 	<li><a href="#">May 2013</a></li>
 	<li><a href="#">April 2013</a></li>
 </ol>
-</div>
+</div> -->
 <div class="sidebar-module">
-<h4>Elsewhere</h4>
+<h4>Liên kết</h4>
 <ol class="list-unstyled">
-	<li><a href="#">GitHub</a></li>
-	<li><a href="#">Twitter</a></li>
-	<li><a href="#">Facebook</a></li>
+	<li><a href="https://www.facebook.com/DeMen.SieuQuay">Dế mèn siêu quậy</a></li>
+	<li><a href="https://www.facebook.com/laptrinhkungfu">Kungfu PHP group</a></li>
 </ol>
 </div>
 </div>

@@ -13,7 +13,7 @@
         <!-- 	<h3 align="center" class="jumbotron h-about">Có nên tập trung quá nhiều vào framework ?</h3> -->
   			<div class="bs-example">
   				<div class="blog-post">
-            <h3 class="blog-post-title" style="padding-top:10px;"><?php echo $data["title"]; ?></h3>
+            <h2 class="blog-post-title" style="padding-top:10px;"><?php echo $data["title"]; ?></h2>
             <p class="blog-post-meta"> <?php echo $data["upd_date"];?> by <a href="#"><?php echo $data["upd_user"] ?></a></p>
 
             <p><?php echo $data["short_content"]; ?></p>
@@ -28,7 +28,7 @@
            
           </div>
   				<div align="center" class="row">   
-  					<div class="fb-comments" data-href="http://kungfuphp.com/chi-tiet-blog.php?id_blog=1" data-numposts="10" data-colorscheme="light" width="100%"></div>
+  					<div class="fb-comments" data-href="http://kungfuphp.com/chi-tiet-blog.php?id_blog=<?php echo $_GET['id_blog']; ?>" data-numposts="10" data-colorscheme="light" width="100%"></div>
   				</div>
   			</div>
         </div>

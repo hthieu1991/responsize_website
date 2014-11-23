@@ -8,26 +8,43 @@
 			    <table class="table">
 			      <thead>
 			        <tr>
-			          <th>#</th>
+			          <th>STT</th>
 			          <th>Tiêu đề</th>
 			          <th>Tóm tắt nội dung</th>
 			          <th>Tác giả/ Ngày</th>
 			        </tr>
 			      </thead>
 			      <tbody>
+			      	<?php
+				          include("lib/connection.php");
+				          $sql = "SELECT * FROM thread  ORDER BY upd_date DESC";
+				          $query = mysqli_query($conn,$sql);
+				          $row_count = 0;
+				          while ($data = mysqli_fetch_array($query)):
+				          	if ($row_count%2==0):
+				          		
+				    ?>
 			        <tr class="active">
-			          <td>1</td>
-			          <td><b><a href="chi-tiet-blog.php?id_blog=1" title="chi tiet bai viet php">Có nên tập trung quá nhiều vào framework ?</a></b></td>
-			          <td><i>Cũng tích cóp, lượm lặt được kha khá kinh nghiệm trong quá trình làm và phát triển web vơi PHP, nay minh muốn chia sẽ với các bạn chủ đề...</i><span style="font-size:11px;">  <a href="chi-tiet-blog.php?id_blog=1">Xem chi tiết</a></span></td>
-			          <td>Administrator <br/>(09/11/2014)</td>
+			          <td><?php echo $row_count+1 ?></td>
+			          <td><b><a href="chi-tiet-blog.php?id_blog=<?php echo $data['thread_id'] ?>" title="<?php echo $data['title']; ?>"><?php echo $data['title']; ?></a></b></td>
+			          <td><i><?php echo $data['short_content']; ?>...</i><span style="font-size:11px;">  <a href="chi-tiet-blog.php?id_blog=<?php echo $data['thread_id']; ?>">Xem chi tiết</a></span></td>
+			          <td><?php echo $data['inp_user']; ?> <br/>(<?php echo $data['upd_date']; ?>)</td>
 			        </tr>
-			        <tr>
-			          <td>2</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
+			        <?php
+			        	   else:
+			        ?>
+			        <tr class="info">
+			          <td><?php echo $row_count+1; ?></td>
+			          <td><b><a href="chi-tiet-blog.php?id_blog=<?php echo $data['thread_id'] ?>" title="<?php echo $data['title']; ?>"><?php echo $data['title']; ?></a></b></td>
+			          <td><i><?php echo $data['short_content']; ?>...</i><span style="font-size:11px;">  <a href="chi-tiet-blog.php?id_blog=<?php echo $data['thread_id']; ?>">Xem chi tiết</a></span></td>
+			          <td><?php echo $data['inp_user']; ?> <br/>(<?php echo $data['upd_date']; ?>)</td>
 			        </tr>
-			        <tr class="success">
+			        <?php
+			        		endif;
+			        		$row_count++;
+			        	endwhile;
+			        ?>
+			        <!-- <tr class="success">
 			          <td>3</td>
 			          <td>Column content</td>
 			          <td>Column content</td>
@@ -68,7 +85,7 @@
 			          <td>Column content</td>
 			          <td>Column content</td>
 			          <td>Column content</td>
-			        </tr>
+			        </tr> -->
 			      </tbody>
 			    </table>
 			  </div>

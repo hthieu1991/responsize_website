@@ -28,17 +28,19 @@ if(isset($_POST["btn_save"])){
 								)";
 
 	mysqli_query($conn,$sql);
-	header("Location: ../quan-ly-bai-viet.php");
+	header("Location: ../danh-sach-bai-viet.php");
 }
 //Update
 if(isset($_POST["btn_update"])){
 	$id = $_POST["thread_id"];
+	$cat_id = $_POST["category"];
 	$title = $_POST["title"];
 	$short_content = $_POST["short_content"];
 	$content = $_POST["content"];
 	$admin = 'admin';
 	$sql = "UPDATE thread 
-			SET title = '$title',
+			SET cat_id = $cat_id,
+				title = '$title',
 				short_content = '$short_content',
 				content = '$content',
 				upd_date = 'NOW()',

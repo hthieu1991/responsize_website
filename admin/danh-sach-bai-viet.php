@@ -115,8 +115,25 @@
             <div class="row placeholders">
               <div class="col-sm-2" align="left"><label class="label label-info">Danh mục :</label></div>
               <div class="col-sm-2">
-                  <input type="text" value="<?php echo $row["cat_name"] ?>">
-     
+                  <!-- <input type="text" value="<?php echo $row["cat_name"] ?>"> -->
+                  <select id="category"name="category">
+                  <?php 
+                    include("../lib/connection.php");
+                    $sql = "SELECT * FROM category";
+                    $query = mysqli_query($conn,$sql);
+                    $option = "";
+                    while ($row_op = mysqli_fetch_array($query)) {
+                      $check = "";                      
+                      $cat_id = $row_op["cat_id"];
+                      $cat_name = $row_op["cat_name"];
+                      if ($cat_id==$row["cat_id"]) {
+                        $check = "selected='selected'";
+                      }
+                      $option .= "<option value='$cat_id' $check >$cat_name</option>";
+                    }
+                    echo $option;
+                  ?>
+                </select>
               </div>
               <div class="col-sm-8"></div>
             </div>
