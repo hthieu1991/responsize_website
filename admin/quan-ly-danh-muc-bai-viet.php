@@ -6,7 +6,7 @@
     <meta content="" name="author">
     <link href="../../favicon.ico" rel="icon">
 
-    <title>Dashboard Template for Bootstrap</title>
+    <title>Administrator</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
