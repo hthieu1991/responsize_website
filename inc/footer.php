@@ -35,4 +35,8 @@
   ga('send', 'pageview');
 
 </script>
+<script type="text/javascript">
+    var adfly_id = 8346573;
+</script>
+<script src="http://cdn.adf.ly/js/display.js"></script>
 </html>
