@@ -59,6 +59,7 @@
 	       <!-- Carousel items -->
 	        <div class="carousel-inner">
 	            <div class="active item">
+	            	<img width="1000" src="bootstrap/img/background-php-5.jpg">
 	                <h2>PHP thuần</h2>
 	                <div class="carousel-caption">
 	                  <h3>Lập trình PHP cơ bản, nâng cao</h3>
@@ -66,6 +67,7 @@
 	                </div>
 	            </div>
 	            <div class="item">
+	            	<img width="1000" src="bootstrap/img/background-php-2.jpg">
 	                <h2>Php Frameworks</h2>
 	                <div class="carousel-caption">
 	                  <h3>CI, Zend, Laravel Frameworks</h3>
@@ -73,6 +75,7 @@
 	                </div>
 	            </div>
 	            <div class="item">
+	            	<img width="1000" src="bootstrap/img/background-php-4.jpg">
 	                <h2>Javascript</h2>
 	                <div class="carousel-caption">
 	                  <h3>jQuery, Ajax, AngularJs , NodeJs</h3>

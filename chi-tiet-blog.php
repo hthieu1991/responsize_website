@@ -1,18 +1,17 @@
-<?php $title = 'Có nên tập trung quá nhiều vào framework ? - PHP Programing - PHP Development'; ?>
+<?php
+include("lib/connection.php");
+$id = 1;
+if (isset($_GET['id_blog'])) {
+  $id = $_GET["id_blog"];
+}
+
+$sql = "SELECT * FROM thread  WHERE thread_id=$id";
+$query = mysqli_query($conn,$sql);
+$data = mysqli_fetch_array($query);
+$title = $data['title'].' - PHP Programing - PHP Development';
+?>
 <?php include 'inc/top.php';?>
     <div class="row">
-		    <?php
-          $id = 1;
-          if (isset($_GET['id_blog'])) {
-            $id = $_GET["id_blog"];
-          }
-          include("lib/connection.php");
-          
-          $sql = "SELECT * FROM thread  WHERE thread_id=$id";
-          $query = mysqli_query($conn,$sql);
-          $data = mysqli_fetch_array($query);
-
-        ?>
         <div class="col-sm-9">
         <!-- 	<h3 align="center" class="jumbotron h-about">Có nên tập trung quá nhiều vào framework ?</h3> -->
   			<div class="bs-example">
