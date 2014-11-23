@@ -2,8 +2,12 @@
 <?php include 'inc/top.php';?>
     <div class="row">
 		    <?php
+          $id = 1;
+          if (isset($_GET['id_blog'])) {
+            $id = $_GET["id_blog"];
+          }
           include("lib/connection.php");
-          $id = $_GET["id_blog"];
+          
           $sql = "SELECT * FROM thread  WHERE thread_id=$id";
           $query = mysqli_query($conn,$sql);
           $data = mysqli_fetch_array($query);
@@ -22,13 +26,25 @@
             ?>
             <br />
             <em>Bài viết liên quan</em>
+            <?php
+              $sql = "SELECT * FROM thread  WHERE cat_id=3";
+              $query = mysqli_query($conn,$sql);
+              
+            ?>
             <ul>
-              <li><a href="http://kungfuphp.com/index.php">Lập trình web là gì.</a></li>
+              <?php
+              while ($data = mysqli_fetch_array($query)) {
+                $id_blog = $data['thread_id'];
+                $title = $data['title'];
+                echo "<li><a href='chi-tiet-blog.php?id_blog=$id_blog'>$title</a></li>";
+              }
+              ?>
+              <!-- <li><a href="http://kungfuphp.com/index.php">Lập trình web là gì.</a></li> -->
             </ul>
            
           </div>
   				<div align="center" class="row">   
-  					<div class="fb-comments" data-href="http://kungfuphp.com/chi-tiet-blog.php?id_blog=<?php echo $_GET['id_blog']; ?>" data-numposts="10" data-colorscheme="light" width="100%"></div>
+  					<div class="fb-comments" data-href="http://kungfuphp.com/chi-tiet-blog.php?id_blog=<?php echo $id ?>" data-numposts="10" data-colorscheme="light" width="100%"></div>
   				</div>
   			</div>
         </div>
