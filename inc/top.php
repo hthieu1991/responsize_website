@@ -33,13 +33,14 @@
   	<!-- Nav Bar -->
   <div class="container">	
   	<div class="header">
-        <ul role="tablist" class="nav nav-pills pull-right col-sm-3 h-nav-margin">
+        <ul role="tablist" class="nav nav-pills pull-right col-sm-4 h-nav-margin">
           <li class="active" role="presentation"><a href="index.php">Home</a></li>
           <li role="presentation"><a href="blogs-lap-trinh.php">Blogs</a></li>
           <li role="presentation"><a href="contact.php">Contact</a></li>
+          <li role="presentation"><a href="sitemap.html">Site Map</a></li>
         </ul>
         <h3 class="text-muted col-sm-3"><a href="index.php" title="kungfuphp blog">Trong Hieu's Blog</a></h3>
-        <form role="search" class="navbar-form col-sm-6 h-search-padding">
+        <form role="search" class="navbar-form col-sm-5 h-search-padding">
 	            <div class="form-group">
 	              <input type="text" placeholder="Search" class="form-control">
 	            </div>
