@@ -43,7 +43,7 @@ if(isset($_POST["btn_update"])){
 				title = '$title',
 				short_content = '$short_content',
 				content = '$content',
-				upd_date = 'NOW()',
+				upd_date = NOW(),
 				upd_user = '$admin'
 			WHERE thread_id = $id";
 	mysqli_query($conn,$sql);

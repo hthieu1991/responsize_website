@@ -17,7 +17,7 @@
 			      <tbody>
 			      	<?php
 				          include("lib/connection.php");
-				          $sql = "SELECT * FROM thread  ORDER BY upd_date DESC";
+				          $sql = "SELECT * FROM thread WHERE cat_id=3  ORDER BY upd_date DESC";
 				          $query = mysqli_query($conn,$sql);
 				          $row_count = 0;
 				          while ($data = mysqli_fetch_array($query)):

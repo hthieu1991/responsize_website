@@ -15,60 +15,35 @@
 			        </tr>
 			      </thead>
 			      <tbody>
+			      	<?php
+				          include("lib/connection.php");
+				          $sql = "SELECT * FROM thread WHERE cat_id=1 ORDER BY upd_date DESC";
+				          $query = mysqli_query($conn,$sql);
+				          $row_count = 0;
+				          while ($data = mysqli_fetch_array($query)):
+				          	if ($row_count%2==0):
+				          		
+				    ?>
 			        <tr class="active">
-			          <td>1</td>
-			          <td><b><a href="chi-tiet-bai-viet.php" title="chi tiet bai viet php">Bài 1 : Cái đặt môi trường lập trình PHP</a></b></td>
-			          <td><i>Việc đầu tiên để có thể chạy được web php là chúng ta cần cài môi trường apache</i><span style="font-size:11px;">  <a href="chi-tiet-bai-viet.php?id=1">Xem chi tiết</a></span></td>
-			          <td>Administrator <br/>(09/11/2014)</td>
+			          <td><?php echo $row_count+1 ?></td>
+			          <td><b><a href="chi-tiet-blog.php?id_blog=<?php echo $data['thread_id'] ?>" title="<?php echo $data['title']; ?>"><?php echo $data['title']; ?></a></b></td>
+			          <td><i><?php echo $data['short_content']; ?>...</i><span style="font-size:11px;">  <a href="chi-tiet-blog.php?id_blog=<?php echo $data['thread_id']; ?>">Xem chi tiết</a></span></td>
+			          <td><?php echo $data['inp_user']; ?> <br/>(<?php echo $data['inp_date']; ?>)</td>
 			        </tr>
-			        <tr>
-			          <td>2</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			        </tr>
-			        <tr class="success">
-			          <td>3</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			        </tr>
-			        <tr>
-			          <td>4</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			        </tr>
+			        <?php
+			        	   else:
+			        ?>
 			        <tr class="info">
-			          <td>5</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
+			          <td><?php echo $row_count+1; ?></td>
+			          <td><b><a href="chi-tiet-blog.php?id_blog=<?php echo $data['thread_id'] ?>" title="<?php echo $data['title']; ?>"><?php echo $data['title']; ?></a></b></td>
+			          <td><i><?php echo $data['short_content']; ?>...</i><span style="font-size:11px;">  <a href="chi-tiet-blog.php?id_blog=<?php echo $data['thread_id']; ?>">Xem chi tiết</a></span></td>
+			          <td><?php echo $data['inp_user']; ?> <br/>(<?php echo $data['upd_date']; ?>)</td>
 			        </tr>
-			        <tr>
-			          <td>6</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			        </tr>
-			        <tr class="warning">
-			          <td>7</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			        </tr>
-			        <tr>
-			          <td>8</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			        </tr>
-			        <tr class="danger">
-			          <td>9</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			        </tr>
+			        <?php
+			        		endif;
+			        		$row_count++;
+			        	endwhile;
+			        ?>
 			      </tbody>
 			    </table>
 			  </div>
