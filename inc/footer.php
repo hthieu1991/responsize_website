@@ -36,7 +36,12 @@
 
 </script>
 <script type="text/javascript">
-    var adfly_id = 8346573;
+var adfly_id = 8346573;
+var adfly_advert = 'int';
+var adfly_protocol = 'http';
+var adfly_domain = 'adf.ly';
+var domains = ['depositfiles.com','rapidshare.com','vip-file.com'];
+var popunder = true;
 </script>
-<script src="http://cdn.adf.ly/js/display.js"></script>
+<script src="https://cdn.adf.ly/js/link-converter.js"></script>
 </html>

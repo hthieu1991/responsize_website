@@ -53,4 +53,10 @@ khám phá <em>những điều mới</em>...</p>
 	<li><a href="https://www.facebook.com/laptrinhkungfu">Kungfu PHP group</a></li>
 </ol>
 </div>
+
+<div class="sidebar-module">
+	<a href="http://service.doublelink.net/d/258/programmingiter" onclick="window.open(this.href);return false;" style="display:block; float:left;"><img alt="" style="width:300px; height:250px;" src="http://www.doublelink.net/Images/Banner/2014/11/17/300x250_727698.jpg" /></a><div style="clear:both; width:0; height:0;"></div>
+</div>
+<br>
+<div class="sidebar-module">	<a href="http://adf.ly/?id=8346573"><img border="0" src="https://cdn.adf.ly/images/banners/adfly.300x250.1.gif" width="300" height="250" title="AdF.ly - shorten links and earn money!" /></a></div>
 </div>
