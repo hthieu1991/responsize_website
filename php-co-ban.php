@@ -17,17 +17,20 @@
 			      <tbody>
 			      	<?php
 				          include("lib/connection.php");
+				          require_once 'class/class_rewrite_link.php';
+				          $rewrite_link = new rewrite_link();
 				          $sql = "SELECT * FROM thread WHERE cat_id=1 ORDER BY upd_date DESC";
 				          $query = mysqli_query($conn,$sql);
 				          $row_count = 0;
 				          while ($data = mysqli_fetch_array($query)):
+				          	$title_to_go = $rewrite_link->slug($data['title-op']);
 				          	if ($row_count%2==0):
 				          		
 				    ?>
 			        <tr class="active">
 			          <td><?php echo $row_count+1 ?></td>
-			          <td><b><a href="chi-tiet-blog.php?id_blog=<?php echo $data['thread_id'] ?>" title="<?php echo $data['title']; ?>"><?php echo $data['title']; ?></a></b></td>
-			          <td><i><?php echo $data['short_content']; ?>...</i><span style="font-size:11px;">  <a href="chi-tiet-blog.php?id_blog=<?php echo $data['thread_id']; ?>">Xem chi tiết</a></span></td>
+			          <td><b><a href="http://<?php echo ROOT; ?>/<?php echo $title_to_go?>-<?php echo $data['thread_id']; ?>.html" title="<?php echo $data['title']; ?>"><?php echo $data['title']; ?></a></b></td>
+			          <td><i><?php echo $data['short_content']; ?>...</i><span style="font-size:11px;">  <a href="http://<?php echo ROOT; ?>/<?php echo $title_to_go?>-<?php echo $data['thread_id']; ?>.html">Xem chi tiết</a></span></td>
 			          <td><?php echo $data['inp_user']; ?> <br/>(<?php echo $data['inp_date']; ?>)</td>
 			        </tr>
 			        <?php
@@ -35,8 +38,8 @@
 			        ?>
 			        <tr class="info">
 			          <td><?php echo $row_count+1; ?></td>
-			          <td><b><a href="chi-tiet-blog.php?id_blog=<?php echo $data['thread_id'] ?>" title="<?php echo $data['title']; ?>"><?php echo $data['title']; ?></a></b></td>
-			          <td><i><?php echo $data['short_content']; ?>...</i><span style="font-size:11px;">  <a href="chi-tiet-blog.php?id_blog=<?php echo $data['thread_id']; ?>">Xem chi tiết</a></span></td>
+			          <td><b><a href="http://<?php echo ROOT; ?>/<?php echo $title_to_go?>-<?php echo $data['thread_id']; ?>.html" title="<?php echo $data['title']; ?>"><?php echo $data['title']; ?></a></b></td>
+			          <td><i><?php echo $data['short_content']; ?>...</i><span style="font-size:11px;">  <a href="http://<?php echo ROOT; ?>/<?php echo $title_to_go?>-<?php echo $data['thread_id']; ?>.html">Xem chi tiết</a></span></td>
 			          <td><?php echo $data['inp_user']; ?> <br/>(<?php echo $data['upd_date']; ?>)</td>
 			        </tr>
 			        <?php
