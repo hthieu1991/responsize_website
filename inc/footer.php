@@ -9,13 +9,13 @@
 				<a target="_blank" title="Fabook kungfuphp" href="http://facebook.com/laptrinhkungfu">Facebook KungfuPhp</a>
 			</div>
    </div>  
-    <link href="bootstrap/css/common.css" rel="stylesheet">
+    <link href="http://<?php echo ROOT; ?>/bootstrap/css/common.css" rel="stylesheet">
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/common.js"></script>
+    <script src="http://<?php echo ROOT; ?>/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://<?php echo ROOT; ?>/bootstrap/js/common.js"></script>
   </body>
   <script type="text/javascript">
 	  $(document).ready(function(){

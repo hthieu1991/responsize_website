@@ -24,10 +24,14 @@
             ?>
             <ul>
               <?php
+              require_once 'class/class_rewrite_link.php';
+              $rewrite_link = new rewrite_link();
               while ($data = mysqli_fetch_array($query)) {
                 $id = $data['thread_id'];
                 $title = $data['title'];
-                echo "<li><a href='chi-tiet-blog.php?id_blog=$id'>$title</a></li>";
+                $title_op =  $rewrite_link->slug($data['title-op']);
+                $domain = $_SERVER['SERVER_NAME'];
+                echo "<li><a href='http://$domain/$title_op-$id.html'>$title</a></li>";
               }
               ?>
               

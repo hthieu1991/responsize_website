@@ -1,5 +1,6 @@
 <?php
 include("lib/connection.php");
+require_once 'class/class_rewrite_link.php';
 $id = 1;
 if (isset($_GET['id_blog'])) {
   $id = $_GET["id_blog"];
@@ -9,6 +10,7 @@ $sql = "SELECT * FROM thread  WHERE thread_id=$id";
 $query = mysqli_query($conn,$sql);
 $data = mysqli_fetch_array($query);
 $title = $data['title'].' - PHP Programing - PHP Development';
+
 ?>
 <?php include 'inc/top.php';?>
     <div class="row">
@@ -32,10 +34,14 @@ $title = $data['title'].' - PHP Programing - PHP Development';
             ?>
             <ul>
               <?php
+              $rewrite_link = new rewrite_link();
+
               while ($data = mysqli_fetch_array($query)) {
                 $id_blog = $data['thread_id'];
                 $title = $data['title'];
-                echo "<li><a href='chi-tiet-blog.php?id_blog=$id_blog'>$title</a></li>";
+                $title_op =  $rewrite_link->slug($data['title-op']);
+                $domain = $_SERVER['SERVER_NAME'];
+                echo "<li><a href='http://$domain/$title_op-$id_blog.html'>$title</a></li>";
               }
               ?>
               <!-- <li><a href="http://kungfuphp.com/index.php">Lập trình web là gì.</a></li> -->

@@ -1,3 +1,4 @@
+<?php include("class/define.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,7 +13,7 @@
 	<meta content="http://kungfuphp.com" property="og:url">
 	<meta content="https://www.facebook.com/laptrinhkungfu" property="article:publisher">
     <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://<?php echo ROOT; ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -60,7 +61,7 @@
 	       <!-- Carousel items -->
 	        <div class="carousel-inner">
 	            <div class="active item">
-	            	<img width="1000" src="bootstrap/img/background-php-5.jpg">
+	            	<img width="1000" src="http://<?php echo ROOT; ?>/bootstrap/img/background-php-5.jpg">
 	                <h2>PHP thuần</h2>
 	                <div class="carousel-caption">
 	                  <h3>Lập trình PHP cơ bản, nâng cao</h3>
@@ -68,7 +69,7 @@
 	                </div>
 	            </div>
 	            <div class="item">
-	            	<img width="1000" src="bootstrap/img/background-php-2.jpg">
+	            	<img width="1000" src="http://<?php echo ROOT; ?>/bootstrap/img/background-php-2.jpg">
 	                <h2>Php Frameworks</h2>
 	                <div class="carousel-caption">
 	                  <h3>CI, Zend, Laravel Frameworks</h3>
@@ -76,7 +77,7 @@
 	                </div>
 	            </div>
 	            <div class="item">
-	            	<img width="1000" src="bootstrap/img/background-php-4.jpg">
+	            	<img width="1000" src="http://<?php echo ROOT; ?>/bootstrap/img/background-php-4.jpg">
 	                <h2>Javascript</h2>
 	                <div class="carousel-caption">
 	                  <h3>jQuery, Ajax, AngularJs , NodeJs</h3>
@@ -94,7 +95,7 @@
 	    </div>	
 	  </div>
 	  <div class="col-sm-3">
-	  	<img src="bootstrap/img/hieu-php.png" alt="tronghieu" class="img-rounded">
+	  	<img src="http://<?php echo ROOT; ?>/bootstrap/img/hieu-php.png" alt="tronghieu" class="img-rounded">
 	  </div>
 
     </div>
