@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo $title; ?></title>
-    <meta content="Blog chia sẻ kinh nghiệm hướng dẫn lập trình PHP. Framework PHP" name="description">
-	<meta content="php, lap trinh php, php tutorials, php programming" name="keywords">
+    <meta content="Blog chia sẻ kinh nghiệm hướng dẫn lập trình PHP , PHP Frameworks , jQuery , Plugin " name="description">
+	<meta content="php, lap trinh php, php tutorials, php programming, php framework, js plugin" name="keywords">
 	<link href="http://kungfuphp.com" rel="canonical">
-	<meta content="log chia sẻ kinh nghiệm hướng dẫn lập trình PHP. Framework PHP" property="og:description">
+	<meta content="Blog chia sẻ kinh nghiệm hướng dẫn lập trình PHP, PHP Frameworks , jQuery , Plugin" property="og:description">
 	<meta content="http://kungfuphp.com" property="og:url">
 	<meta content="https://www.facebook.com/laptrinhkungfu" property="article:publisher">
     <!-- Bootstrap -->
