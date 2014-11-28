@@ -1,4 +1,6 @@
-<?php $title = 'Lập trình PHP cơ bản - PHP Programing - PHP Development'; ?>
+<?php $title = 'Các bài viết về PHP cơ bản, PHP Basic Programing cho người mới bắt đầu'; 
+	  $short_content = 'Tổng hợp các bài viết về PHP cơ bản dành cho người mới bắt đầu tìm hiểu và bước vào thế giới lập trình PHP, PHP basic programming';
+?>
 <?php include 'inc/top.php';?>
     <div class="row">
 		

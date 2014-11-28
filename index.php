@@ -1,4 +1,6 @@
-<?php $title = 'Lập trình PHP - PHP Programing - PHP Development'; ?>
+<?php $title = 'Lập trình PHP - PHP Programing - PHP Development';
+      $short_content = 'Blog chia sẻ kinh nghiệm hướng dẫn lập trình PHP , PHP Frameworks , jQuery , Plugin';
+ ?>
 <?php include 'inc/top.php';?>
     <div class="row">
         <?php

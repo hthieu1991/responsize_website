@@ -9,6 +9,7 @@ $sql = "SELECT * FROM thread  WHERE thread_id=$id";
 $query = mysqli_query($conn,$sql);
 $data = mysqli_fetch_array($query);
 $title = $data['title'].' - PHP Programing - PHP Development';
+$short_content = $data['short_content'].' - PHP Programing - PHP Development';
 ?>
 <?php include 'inc/top.php';?>
     <div class="row">

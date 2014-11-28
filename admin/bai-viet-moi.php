@@ -82,6 +82,13 @@
             <div class="col-sm-8"></div>
           </div>
           <div class="row placeholders">
+            <div class="col-sm-2" align="left"><label class="label label-info">Tiêu đề không dấu :</label></div>
+            <div class="col-sm-2">
+              <input type="text" size="60" id="title_op" name="title_op"> 
+            </div>
+            <div class="col-sm-8"></div>
+          </div>
+          <div class="row placeholders">
             <div class="col-sm-2" align="left"><label for="short_content" class="label label-info">Nội dung ngắn :</label></div>
             <div class="col-sm-2">
               <textarea id="short_content" name="short_content" cols="60" rows="4" ></textarea>

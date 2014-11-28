@@ -1,4 +1,6 @@
-<?php $title = 'Các bài blog lập trình PHP - PHP Programing - PHP Development'; ?>
+<?php $title = 'Danh sách các bài blog chia sẽ kinh nghiệm về lập trình PHP, PHP programming, js, plugin'; 
+	  $short_content = 'Tổng hợp các bài viết, chia sẽ kinh nghiệm, cũng như các bài học quý giá về các kiến thức lập trình PHP cơ bản, nâng cao, javascript, thuật toán, tối ưu SEO,js plugin';
+?>
 <?php include 'inc/top.php';?>
     <div class="row">
 		

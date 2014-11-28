@@ -4,12 +4,14 @@ include("../../lib/connection.php");
 if(isset($_POST["btn_save"])){
 	$cat_id = $_POST["category"];
 	$title = $_POST["title"];
+	$title_op = $_POST["title_op"];
 	$short_content = $_POST["short_content"];
 	$content = $_POST["content"];
 	$admin = 'admin';
 	$sql = "INSERT INTO thread(
 									cat_id,
 									title,
+									title-op,
 									short_content,
 									content,
 									inp_user,
@@ -19,6 +21,7 @@ if(isset($_POST["btn_save"])){
 								) VALUES (
 									$cat_id,
 									'$title',
+									'$title_op',
 									'$short_content',
 									'$content',
 									'$admin',
@@ -35,12 +38,14 @@ if(isset($_POST["btn_update"])){
 	$id = $_POST["thread_id"];
 	$cat_id = $_POST["category"];
 	$title = $_POST["title"];
+	$title_op = $_POST["title_op"];
 	$short_content = $_POST["short_content"];
 	$content = $_POST["content"];
 	$admin = 'admin';
 	$sql = "UPDATE thread 
 			SET cat_id = $cat_id,
 				title = '$title',
+				title-op = '$title_op',
 				short_content = '$short_content',
 				content = '$content',
 				upd_date = NOW(),
