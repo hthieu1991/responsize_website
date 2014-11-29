@@ -1,0 +1,16 @@
+http://kungfuphp.com/
+http://kungfuphp.com/index.php
+http://kungfuphp.com/blogs-lap-trinh.php
+http://kungfuphp.com/contact.php
+http://kungfuphp.com/sitemap.html
+http://kungfuphp.com/co-nen-tap-trung-qua-nhieu-vao-framework-1.html
+http://kungfuphp.com/lap-trinh-web-la-gi-2.html
+http://kungfuphp.com/sql-injection-la-gi-4.html
+http://kungfuphp.com/php-co-ban.php
+http://kungfuphp.com/chi-tiet-blog.php?id_blog=1
+http://kungfuphp.com/chi-tiet-blog.php?id_blog=2
+http://kungfuphp.com/chi-tiet-bai-viet.php
+http://kungfuphp.com/chi-tiet-bai-viet.php?id=1
+http://kungfuphp.com/chi-tiet-blog.php?id_blog=4
+http://kungfuphp.com/cai-dat-moi-truong-lap-trinh-php-3.html
+http://kungfuphp.com/chi-tiet-blog.php?id_blog=3

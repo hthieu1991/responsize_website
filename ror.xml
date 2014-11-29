@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://kungfuphp.com/</title>
+  <link>http://kungfuphp.com/</link>
+
+<item>
+     <link>http://kungfuphp.com/</link>
+     <title>Lập trình PHP - PHP Programing - PHP Development</title>
+     <description>Lập trình PHP - PHP Programing - PHP Development</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://kungfuphp.com/index.php</link>
+     <title>Lập trình PHP - PHP Programing - PHP Development</title>
+     <description>Lập trình PHP - PHP Programing - PHP Development</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://kungfuphp.com/blogs-lap-trinh.php</link>
+     <title>Các bài blog lập trình PHP - PHP Programing - PHP Development</title>
+     <description>Các bài blog lập trình PHP - PHP Programing - PHP Development</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://kungfuphp.com/contact.php</link>
+     <title>Liên hệ lập trình PHP - PHP Programing - PHP Development</title>
+     <description>Liên hệ lập trình PHP - PHP Programing - PHP Development</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://kungfuphp.com/sitemap.html</link>
+     <title>kungfuphp-lap trinh php - sitemap</title>
+     <description>kungfuphp-lap trinh php - sitemap</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://kungfuphp.com/co-nen-tap-trung-qua-nhieu-vao-framework-1.html</link>
+     <title>Có nên tập trung quá nhiều vào framework ? - PHP Programing - PHP Development</title>
+     <description>Có nên tập trung quá nhiều vào framework ? - PHP Programing - PHP Development</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://kungfuphp.com/lap-trinh-web-la-gi-2.html</link>
+     <title>Lập trình web là gì ? - PHP Programing - PHP Development</title>
+     <description>Lập trình web là gì ? - PHP Programing - PHP Development</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://kungfuphp.com/sql-injection-la-gi-4.html</link>
+     <title>SQL Injection là gì ? - PHP Programing - PHP Development</title>
+     <description>SQL Injection là gì ? - PHP Programing - PHP Development</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://kungfuphp.com/php-co-ban.php</link>
+     <title>Lập trình PHP cơ bản - PHP Programing - PHP Development</title>
+     <description>Lập trình PHP cơ bản - PHP Programing - PHP Development</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://kungfuphp.com/chi-tiet-blog.php?id_blog=1</link>
+     <title>Có nên tập trung quá nhiều vào framework ? - PHP Programing - PHP Development</title>
+     <description>Có nên tập trung quá nhiều vào framework ? - PHP Programing - PHP Development</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://kungfuphp.com/chi-tiet-blog.php?id_blog=2</link>
+     <title>Lập trình web là gì ? - PHP Programing - PHP Development</title>
+     <description>Lập trình web là gì ? - PHP Programing - PHP Development</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://kungfuphp.com/chi-tiet-bai-viet.php</link>
+     <title>Chi tiết bài viết lập trình PHP - PHP Programing - PHP Development</title>
+     <description>Chi tiết bài viết lập trình PHP - PHP Programing - PHP Development</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://kungfuphp.com/chi-tiet-bai-viet.php?id=1</link>
+     <title>Chi tiết bài viết lập trình PHP - PHP Programing - PHP Development</title>
+     <description>Chi tiết bài viết lập trình PHP - PHP Programing - PHP Development</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://kungfuphp.com/chi-tiet-blog.php?id_blog=4</link>
+     <title>SQL Injection là gì ? - PHP Programing - PHP Development</title>
+     <description>SQL Injection là gì ? - PHP Programing - PHP Development</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://kungfuphp.com/cai-dat-moi-truong-lap-trinh-php-3.html</link>
+     <title>Cài đặt môi trường lập trình PHP - PHP Programing - PHP Development</title>
+     <description>Cài đặt môi trường lập trình PHP - PHP Programing - PHP Development</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://kungfuphp.com/chi-tiet-blog.php?id_blog=3</link>
+     <title>Cài đặt môi trường lập trình PHP - PHP Programing - PHP Development</title>
+     <description>Cài đặt môi trường lập trình PHP - PHP Programing - PHP Development</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

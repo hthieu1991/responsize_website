@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://kungfuphp.com/</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/index.php</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/blogs-lap-trinh.php</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/contact.php</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/sitemap.html</loc>
+  <lastmod>2014-11-23T04:51:24+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/co-nen-tap-trung-qua-nhieu-vao-framework-1.html</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/lap-trinh-web-la-gi-2.html</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/sql-injection-la-gi-4.html</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/php-co-ban.php</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/chi-tiet-blog.php?id_blog=1</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/chi-tiet-blog.php?id_blog=2</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/chi-tiet-bai-viet.php</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/chi-tiet-bai-viet.php?id=1</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/chi-tiet-blog.php?id_blog=4</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/cai-dat-moi-truong-lap-trinh-php-3.html</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/chi-tiet-blog.php?id_blog=3</loc>
+  <changefreq>always</changefreq>
+</url>
+</urlset>
