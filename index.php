@@ -31,7 +31,7 @@
               while ($data = mysqli_fetch_array($query)) {
                 $id = $data['thread_id'];
                 $title = $data['title'];
-                $title_op =  $rewrite_link->slug($data['title-op']);
+                $title_op =  $rewrite_link->slug($data['title_op']);
                 $domain = $_SERVER['SERVER_NAME'];
                 echo "<li><a href='http://$domain/$title_op-$id.html'>$title</a></li>";
               }

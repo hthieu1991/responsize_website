@@ -4,6 +4,7 @@
 <p style="font-size: 14px;">Tên mình là <em>Hiếu</em> . Mình hiện đang
 là một <em>PHP Developer</em>. Sở thích của mình là <em>phiêu lưu</em>,
 khám phá <em>những điều mới</em>...</p>
+<p style="font-size: 14px;"><i><b>Chia sẽ nhiều hơn - Phát triển nhiều hơn</b></i> - <em>http://kungfuphp.com</em></p>
 </div>
 
 <div class="sidebar-module">

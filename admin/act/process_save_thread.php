@@ -11,7 +11,7 @@ if(isset($_POST["btn_save"])){
 	$sql = "INSERT INTO thread(
 									cat_id,
 									title,
-									title-op,
+									title_op,
 									short_content,
 									content,
 									inp_user,
@@ -45,7 +45,7 @@ if(isset($_POST["btn_update"])){
 	$sql = "UPDATE thread 
 			SET cat_id = $cat_id,
 				title = '$title',
-				title-op = '$title_op',
+				title_op = '$title_op',
 				short_content = '$short_content',
 				content = '$content',
 				upd_date = NOW(),

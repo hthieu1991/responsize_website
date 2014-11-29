@@ -147,7 +147,7 @@
             <div class="row placeholders">
               <div class="col-sm-2" align="left"><label class="label label-info">Tiêu đề không dấu:</label></div>
               <div class="col-sm-2">
-                <input type="text" size="60" id="title" name="title" value="<?php echo $row["title-op"] ?>"> 
+                <input type="text" size="60" id="title_op" name="title_op" value="<?php echo $row["title_op"] ?>"> 
               </div>
               <div class="col-sm-8"></div>
             </div>

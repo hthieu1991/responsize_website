@@ -25,7 +25,7 @@
 				          $query = mysqli_query($conn,$sql);
 				          $row_count = 0;
 				          while ($data = mysqli_fetch_array($query)):
-				          	$title_to_go = $rewrite_link->slug($data['title-op']);
+				          	$title_to_go = $rewrite_link->slug($data['title_op']);
 				          	if ($row_count%2==0):
 				          		
 				    ?>

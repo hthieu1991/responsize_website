@@ -39,7 +39,7 @@ $short_content = $data['short_content'].' - PHP Programing - PHP Development';
               while ($data = mysqli_fetch_array($query)) {
                 $id_blog = $data['thread_id'];
                 $title = $data['title'];
-                $title_op =  $rewrite_link->slug($data['title-op']);
+                $title_op =  $rewrite_link->slug($data['title_op']);
                 $domain = $_SERVER['SERVER_NAME'];
                 echo "<li><a href='http://$domain/$title_op-$id_blog.html'>$title</a></li>";
               }
