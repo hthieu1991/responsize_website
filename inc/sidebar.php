@@ -52,12 +52,15 @@ khám phá <em>những điều mới</em>...</p>
 <ol class="list-unstyled">
 	<li><a href="https://www.facebook.com/DeMen.SieuQuay">Dế mèn siêu quậy</a></li>
 	<li><a href="https://www.facebook.com/laptrinhkungfu">Kungfu PHP group</a></li>
+	<li><a href="http://ask.fm/programmingiter">Bạn hỏi tôi trả lời</a></li>
 </ol>
 </div>
-
 <div class="sidebar-module">
-	<a href="http://service.doublelink.net/d/258/programmingiter" onclick="window.open(this.href);return false;" style="display:block; float:left;"><img alt="" style="width:300px; height:250px;" src="http://www.doublelink.net/Images/Banner/2014/11/17/300x250_727698.jpg" /></a><div style="clear:both; width:0; height:0;"></div>
+	<iframe src="http://ask.fm/widget/f009d035a4e3f29cc57c277422ad5522c3f0d02a?stylesheet=small&fgcolor=%23000000&bgcolor=%23EFEFEF&lang=46" frameborder="0" scrolling="no" width="200" height="170" style="border:none;"></iframe>
 </div>
+<!-- <div class="sidebar-module">
+	<a href="http://service.doublelink.net/d/258/programmingiter" onclick="window.open(this.href);return false;" style="display:block; float:left;"><img alt="" style="width:300px; height:250px;" src="http://www.doublelink.net/Images/Banner/2014/11/17/300x250_727698.jpg" /></a><div style="clear:both; width:0; height:0;"></div>
+</div> -->
 <br>
 <div class="sidebar-module">	<a href="http://adf.ly/?id=8346573"><img border="0" src="https://cdn.adf.ly/images/banners/adfly.300x250.1.gif" width="300" height="250" title="AdF.ly - shorten links and earn money!" /></a></div>
 </div>

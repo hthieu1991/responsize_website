@@ -24,7 +24,7 @@
 </url>
 <url>
   <loc>http://kungfuphp.com/sitemap.html</loc>
-  <lastmod>2014-11-23T04:51:24+00:00</lastmod>
+  <lastmod>2014-11-26T09:25:40+00:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
@@ -37,6 +37,10 @@
 </url>
 <url>
   <loc>http://kungfuphp.com/sql-injection-la-gi-4.html</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/chia-se-tai-lieu-lap-trinh-php-javascript-jquery-plugin-mysql-5.html</loc>
   <changefreq>always</changefreq>
 </url>
 <url>
@@ -69,6 +73,14 @@
 </url>
 <url>
   <loc>http://kungfuphp.com/chi-tiet-blog.php?id_blog=3</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/gioi-thieu-ve-cac-editor-cho-nha-phat-trien-web-6.html</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://kungfuphp.com/chi-tiet-blog.php?id_blog=5</loc>
   <changefreq>always</changefreq>
 </url>
 </urlset>

@@ -26,6 +26,7 @@ $short_content = $data['short_content'].' - PHP Programing - PHP Development';
               echo $data["content"];
             ?>
             <br />
+            <p><font color="red">Ghi rõ nguồn <b>http://kungfuphp.com</b> khi bạn phát hành thông tin trên website này</font></p>
             <em>Bài viết liên quan</em>
             <?php
               $sql = "SELECT * FROM thread  WHERE cat_id=3";
