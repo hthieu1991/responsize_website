@@ -13,7 +13,7 @@
         <div class="col-sm-9">
 
           <div class="blog-post">
-            <h2 class="blog-post-title"><?php echo $data["title"];?></h2>
+            <h2 class="blog-post-title" style="padding-top:10px;"><?php echo $data["title"];?></h2>
             <p class="blog-post-meta"><?php echo $data["upd_date"];?> by <a href="#"><?php echo $data["upd_user"];?></a></p>
 
             <p><?php echo $data["short_content"];?></p>

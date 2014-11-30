@@ -14,7 +14,7 @@
 	<meta content="https://www.facebook.com/laptrinhkungfu" property="article:publisher">
 	<meta http-equiv="content-language" content="vi" />
     <!-- Bootstrap -->
-    <link href="http://<?php echo ROOT; ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://<?php echo ROOT; ?>/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,7 +34,7 @@
 	}(document, 'script', 'facebook-jssdk'));</script>
   	<!-- Nav Bar -->
   <div class="container">	
-  	<div class="header">
+  	<!-- <div class="header">
         <ul role="tablist" class="nav nav-pills pull-right col-sm-4 h-nav-margin">
           <li class="active" role="presentation"><a href="index.php">Home</a></li>
           <li role="presentation"><a href="blogs-lap-trinh.php">Blogs</a></li>
@@ -49,7 +49,31 @@
 	            <button class="btn btn-default" type="submit">Submit</button>
 	    </form>
         
-      </div>
+      </div> -->
+      <nav role="navigation" class="navbar navbar-inverse" style="margin-bottom:0px;bg-color">
+	      <div class="container-fluid">
+	        <!-- Brand and toggle get grouped for better mobile display -->
+	        <div class="navbar-header">
+	          <button data-target="#bs-example-navbar-collapse-9" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a href="index.php" title="kungfuphp blog" class="navbar-brand">Kungfu PHP</a>
+	        </div>
+
+	        <!-- Collect the nav links, forms, and other content for toggling -->
+	        <div id="bs-example-navbar-collapse-9" class="collapse navbar-collapse">
+	          <ul class="nav navbar-nav">
+	            <li class="active"><a href="index.php" title="kungfuphp home page">Home</a></li>
+	            <li><a href="blogs-lap-trinh.php" title="kungfuphp blogs">Blogs</a></li>
+	            <li><a href="contact.php" title="kungfuphp contact">Contact</a></li>
+	            <li><a href="sitemap.html" title="kungfuphp sitemap">Site Map</a></li>
+	          </ul>
+	        </div><!-- /.navbar-collapse -->
+	      </div><!-- /.container-fluid -->
+    </nav>
 	<div class="row">
 		<div class="col-sm-9">
 			<div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
@@ -96,7 +120,7 @@
 	    </div>	
 	  </div>
 	  <div class="col-sm-3">
-	  	<img src="http://<?php echo ROOT; ?>/bootstrap/img/hieu-php.png" alt="tronghieu" class="img-rounded">
+	  	<img style="margin-top:30px;" src="http://<?php echo ROOT; ?>/bootstrap/img/hieu-php.png" alt="tronghieu" class="img-rounded">
 	  </div>
 
     </div>
