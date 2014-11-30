@@ -19,12 +19,6 @@ khám phá <em>những điều mới</em>...</p>
           	echo "<li role='presentation' class='h-item'><a href='$cat_link'><b>$cat_name</b></a></li>";
           }
     ?>
-<!-- 	<li role="presentation" class="h-item active"><a href="php-co-ban.php"><b>PHP
-	cơ bản</b></a></li>
-	<li role="presentation" class="h-item"><a href="php-nang-cao.php"><b>PHP nâng cao</b></a></li>
-	<li role="presentation" class="h-item"><a href="laravel-framework.php"><b>	Framework</b></a></li>
-	<li role="presentation" class="h-item"><a href="plugin-js.php"><b>Plugin js</b></a></li>
-	<li role="presentation" class="h-item"><a href="blogs-lap-trinh.php"><b>Blogs lập trình</b></a></li> -->
 </ul>
 </div>
 <div class="sidebar-module" style="margin-bottom:10px; margin-top:10px;">
@@ -35,16 +29,6 @@ khám phá <em>những điều mới</em>...</p>
 <ol class="list-unstyled">
 	<li><a href="#">March 2014</a></li>
 	<li><a href="#">February 2014</a></li>
-	<li><a href="#">January 2014</a></li>
-	<li><a href="#">December 2013</a></li>
-	<li><a href="#">November 2013</a></li>
-	<li><a href="#">October 2013</a></li>
-	<li><a href="#">September 2013</a></li>
-	<li><a href="#">August 2013</a></li>
-	<li><a href="#">July 2013</a></li>
-	<li><a href="#">June 2013</a></li>
-	<li><a href="#">May 2013</a></li>
-	<li><a href="#">April 2013</a></li>
 </ol>
 </div> -->
 <div class="sidebar-module">

@@ -41,18 +41,8 @@
            
           </div>
 
-          <!-- <nav>
-            <ul class="pager">
-              <li><a href="#">Previous</a></li>
-              <li><a href="#">Next</a></li>
-            </ul>
-          </nav> -->
-
         </div>
-		<!-- Sidebar -->
 		<?php include 'inc/sidebar.php';?>
-        <!-- End sidebar -->
-
       </div>
    </div>
    <?php include 'inc/footer.php';?>

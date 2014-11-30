@@ -15,7 +15,6 @@ $short_content = $data['short_content'].' - PHP Programing - PHP Development';
 <?php include 'inc/top.php';?>
     <div class="row">
         <div class="col-sm-9">
-        <!-- 	<h3 align="center" class="jumbotron h-about">Có nên tập trung quá nhiều vào framework ?</h3> -->
   			<div class="bs-example">
   				<div class="blog-post">
             <h2 class="blog-post-title" style="padding-top:10px;"><?php echo $data["title"]; ?></h2>
@@ -45,7 +44,6 @@ $short_content = $data['short_content'].' - PHP Programing - PHP Development';
                 echo "<li><a href='http://$domain/$title_op-$id_blog.html'>$title</a></li>";
               }
               ?>
-              <!-- <li><a href="http://kungfuphp.com/index.php">Lập trình web là gì.</a></li> -->
             </ul>
            
           </div>
@@ -55,9 +53,7 @@ $short_content = $data['short_content'].' - PHP Programing - PHP Development';
   			</div>
         </div>
 
-        <!-- sidebar -->
 		<?php include 'inc/sidebar.php';?>
-        <!-- end sidebar -->
 
       </div>
    </div>

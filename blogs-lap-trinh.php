@@ -49,48 +49,7 @@
 			        		$row_count++;
 			        	endwhile;
 			        ?>
-			        <!-- <tr class="success">
-			          <td>3</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			        </tr>
-			        <tr>
-			          <td>4</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			        </tr>
-			        <tr class="info">
-			          <td>5</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			        </tr>
-			        <tr>
-			          <td>6</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			        </tr>
-			        <tr class="warning">
-			          <td>7</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			        </tr>
-			        <tr>
-			          <td>8</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			        </tr>
-			        <tr class="danger">
-			          <td>9</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			          <td>Column content</td>
-			        </tr> -->
+			       
 			      </tbody>
 			    </table>
 			  </div>
