@@ -1,3 +1,7 @@
+<?php
+session_start();
+unset($_SESSION["email"]);
+?>
 <!DOCTYPE html>
 <html lang="vi"><head>
     <meta charset="utf-8">
@@ -9,33 +13,40 @@
 
     <title>http://kungfuphp.com login page</title>
 
-    <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 
-    <!-- Custom styles for this template -->
     <link rel="stylesheet" href="../bootstrap/css/signin.css">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <!-- // <script src="../../assets/js/ie-emulation-modes-warning.js"></script> -->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
 
   <body>
 
     <div class="container">
-
-      <form role="form" class="form-signin">
+      <?php
+        include("../lib/connection.php");
+        $div_success = '';
+        if (isset($_POST["email"])) {
+          $email = addslashes($_POST["email"]);
+          $pass = addslashes($_POST["pass"]);
+          $sql = "SELECT * FROM member WHERE email='$email' and password='$pass'";
+          $query = mysqli_query($conn,$sql);
+          $num_row = mysqli_num_rows($query);
+          if($num_row==0){
+             $message = 'email hoặc mật mã không đúng, thử lại nhé';
+             $div_error = '<div class="alert alert-danger" id="contact_sucess" role="alert">'.$message.'</div>';
+          }else{
+            $_SESSION["email"] = $email;
+            header('Location: index.php');
+          }
+        }
+      ?>
+      <?php echo $div_error; ?>
+      <form role="form" class="form-signin" method="POST">
         <h2 class="form-signin-heading">Đăng Nhập</h2>
-        <label class="sr-only" for="inputEmail">Email address</label>
-        <input type="email" autofocus="" required="" placeholder="Email address" class="form-control" id="inputEmail">
-        <label class="sr-only" for="inputPassword">Password</label>
-        <input type="password" required="" placeholder="Password" class="form-control" id="inputPassword">
+        <label class="sr-only" for="email">Email address</label>
+        <input type="text" name="email" id="email" autofocus="" required="" placeholder="Email address" class="form-control" id="inputEmail">
+        <label class="sr-only" for="pass">Password</label>
+        <input type="password" name="pass" id="pass" required="" placeholder="Password" class="form-control" id="inputPassword">
         <div class="checkbox">
           <label>
             <input type="checkbox" value="remember-me"> Remember me
@@ -44,11 +55,6 @@
         <button type="submit" class="btn btn-lg btn-primary btn-block">Sign in</button>
       </form>
 
-    </div> <!-- /container -->
-
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!-- // <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
-  
+    </div> 
 
 </body></html>

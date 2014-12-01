@@ -3,24 +3,25 @@
  ?>
 <?php include 'inc/top.php';?>
 <?php include("lib/connection.php");
-    if (isset($_POST['btn_contact'])) {
+    $div_success = '';
+    if (isset($_POST['mail'])) {
       $email = addslashes($_POST["mail"]);
       $name = addslashes($_POST["name"]);
       $title = addslashes($_POST["title"]);
       $content = addslashes($_POST["content"]);
       $check_file = 0;
-      if (isset($_FILE["myfile"])) {
-        $check_file = 1;
-        //do upload file
-        $name = basename($_FILE['myfile']['name']);
-        move_uploaded_file($_FILE['myfile']['tmp_name'], 'docs/'.$name);
-        // set proper permissions on the new file
-        chmod('docs/'.$_FILE['myfile']['name'], 0644);
-      }
-      $sql = "SELECT * FROM member WHERE email=$email";
-      // echo $sql;exit();
+      // if (isset($_FILE["fileupload"])) {
+      //   $check_file = 1;
+      //   //do upload file
+      //   $name = basename($_FILE['myfile']['name']);
+      //   echo $name;exit();
+      //   move_uploaded_file($_FILE['myfile']['tmp_name'], 'docs/'.$name);
+      //   // set proper permissions on the new file
+      //   chmod('docs/'.$_FILE['myfile']['name'], 0644);
+      // }
+      $sql = "SELECT * FROM member WHERE email='$email'";
       $query = mysqli_query($conn,$sql);
-      $num_row = count(mysqli_fetch_array($query));
+      $num_row = mysqli_num_rows($query);
       if ($num_row==0) {
         $sql = "INSERT INTO member(email,name,level,inp_date,upd_date,status)
                   VALUES ('$email','$name',0,NOW(),NOW(),0)";
@@ -34,8 +35,8 @@
         }
         
         mysqli_query($conn,$sql);
-        $message = 'Gửi thành công!';
-        $div_success = '<div class="alert alert-succes" id="contact_sucess" role="alert" style="display:none">'.$message.'</div>';
+        $message = 'Gửi thành công! Cám ơn bạn, mình sẽ phản hồi trong thời gian sớm nhất';
+        $div_success = '<div class="alert alert-success" id="contact_sucess" role="alert">'.$message.'</div>';
      
       }
     }
@@ -46,18 +47,14 @@
         <div class="col-sm-9">
           <div class="jumbotron" style="margin-top:10px;">
             <h3>Liên hệ với mình</h2>
-            <p class="bg-primary" style="font-size:14px;">Liên lạc với mình thông qua</p>
             <kbd>Email : programming.iter@gmail.com</kbd><br/></br>
-            <kbd>Skype : hoang.hieu91</kbd><br/></br>
-            <kbd>Facebook : https://www.facebook.com/DeMen.SieuQuay</kbd><br/><br/>
+            <kbd>Facebook : https://www.facebook.com/laptrinhkungfu</kbd><br/><br/>
             <p class="bg-primary" style="font-size:14px;">Hoặc điền vào mẫu form dưới đây, mình sẽ phản hồi tin nhắn của bạn trong thời gian sớm nhất</p>
-            <form role="form" name="fr_contact" id="fr_contact" method="POST">
+            <form role="form" name="fr_contact" id="fr_contact" method="POST" enctype="multipart/form-data">
               <div class="form-group">
                 
                 <?php
-                  if (isset($_POST["btn_contact"])) {
                     echo $div_success;
-                  }
                 ?>
                 <div class="alert alert-danger" id="contact_error" role="alert" style="display:none"></div>
                 <label class="label label-info" for="email">Địa chỉ Email</label>
@@ -75,10 +72,10 @@
                 <label  class="label label-info" for="content">Nội dung</label>
                 <textarea id="content" name="content" rows="4" cols="70"></textarea>
               </div>
-              <div class="form-group">
-                <label for="myfile">Tập tin đính kèm</label>
-                <input type="file" id="myfile" name="myfile">
-              </div>
+             <!--  <div class="form-group">
+                <label for="fileupload">Tập tin đính kèm</label>
+                <input type="file" id="fileupload" name="fileupload" />
+              </div> -->
 
               <button id="btn_contact" name="btn_contact" class="btn btn-primary">Gửi thông tin</button>
             </form>

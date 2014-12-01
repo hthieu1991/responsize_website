@@ -1,4 +1,14 @@
 <?php
+session_start();
+if (!isset($_SESSION["email"])) {
+    header('Location: login.php');
+}else{
+  if ($_SESSION["email"]!="programming.iter@gmail.com") {
+     header('Location: login.php');
+  }
+}
+?>
+<?php
 include("../../lib/connection.php");
 //Add new
 if(isset($_POST["btn_save"])){
