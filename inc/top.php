@@ -93,7 +93,7 @@
 	    </div>	
 	  </div>
 	  <div class="col-sm-3">
-	  	<img style="margin-top:30px;" src="http://<?php echo ROOT; ?>/bootstrap/img/hieu-php.png" alt="tronghieu" class="img-rounded">
+	  	<img style="margin-top:30px;" src="http://<?php echo ROOT; ?>/bootstrap/img/avatar-kungfu-php.jpg" alt="kungfuphp avatar" class="img-rounded">
 	  </div>
 
     </div>
