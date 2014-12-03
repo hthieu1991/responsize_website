@@ -92,8 +92,11 @@
 	        </a>
 	    </div>	
 	  </div>
-	  <div class="col-sm-3">
+	  <div class="col-sm-3" >
 	  	<img style="margin-top:30px;" src="http://<?php echo ROOT; ?>/bootstrap/img/avatar-kungfu-php.jpg" alt="kungfuphp avatar" class="img-rounded">
 	  </div>
 
+    </div>
+    <div class="row" style="padding-left:13px; padding-right:13px;"> 
+    	<a href="http://kungfuphp.com" title="lap trinh php"><img src="http://<?php echo ROOT; ?>/kungfuphp/kungfuphp-free-code-online.jpg" height="80px" width="100%" alt="kungfuphp free code school" class="img-rounded"></a>
     </div>

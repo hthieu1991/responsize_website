@@ -24,6 +24,7 @@ khám phá <em>những điều mới</em>...</p>
 <div class="sidebar-module" style="margin-bottom:10px; margin-top:10px;">
 	<div class="fb-like-box" data-href="https://www.facebook.com/laptrinhkungfu" data-height="225" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
 </div>
+
 <!-- <div class="sidebar-module">
 <h4>Archives</h4>
 <ol class="list-unstyled">
