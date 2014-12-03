@@ -32,6 +32,9 @@ khám phá <em>những điều mới</em>...</p>
 	<li><a href="#">February 2014</a></li>
 </ol>
 </div> -->
+<div class-"sidebar-module" style="margin-bottom:10px; margin-top:10px;">
+	<a href="http://like.xln.vn/?ref=3403" target="_blank"><img class="img-rounded" src="http://kungfuphp.com/kungfuphp/kungfuphp-like-share.jpg" alt="kungfuphp-banner-like-share" border="0" /></a>
+</div>
 <div class="sidebar-module">
 <h4>Liên kết</h4>
 <ol class="list-unstyled">
@@ -43,9 +46,11 @@ khám phá <em>những điều mới</em>...</p>
 <div class="sidebar-module">
 	<iframe src="http://ask.fm/widget/f009d035a4e3f29cc57c277422ad5522c3f0d02a?stylesheet=small&fgcolor=%23000000&bgcolor=%23EFEFEF&lang=46" frameborder="0" scrolling="no" width="200" height="170" style="border:none;"></iframe>
 </div>
+
+<br>
+
 <!-- <div class="sidebar-module">
 	<a href="http://service.doublelink.net/d/258/programmingiter" onclick="window.open(this.href);return false;" style="display:block; float:left;"><img alt="" style="width:300px; height:250px;" src="http://www.doublelink.net/Images/Banner/2014/11/17/300x250_727698.jpg" /></a><div style="clear:both; width:0; height:0;"></div>
 </div> -->
-<br>
 <div class="sidebar-module">	<a href="http://adf.ly/?id=8346573"><img border="0" src="https://cdn.adf.ly/images/banners/adfly.300x250.1.gif" width="300" height="250" title="AdF.ly - shorten links and earn money!" /></a></div>
 </div>
